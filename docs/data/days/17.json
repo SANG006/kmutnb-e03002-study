@@ -1,0 +1,1922 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "math",
+      "title": "จำลองครั้งที่สองและเทียบผล",
+      "goal": "ประเมินผลหลังซ่อมจุดอ่อนด้วยข้อสอบชุดใหม่",
+      "rules": [
+        "ทำข้อสอบ 120 นาทีภายใต้เงื่อนไขฝึกเดิม เปรียบเทียบคะแนนเป็นรายวิชา จำนวนข้อเว้น และจำนวนข้อผิดซ้ำใน แต่ละสาเหตุ",
+        "อัตราถูกกลุ่มวิชา = จำนวนถูก/จำนวนข้อกลุ่มนั้น ×100",
+        "ข้อสอบต่างชุดอาจต่างความยาก เทียบรายทักษะและข้อผิดประกอบคะแนน"
+      ],
+      "examples": [
+        "ทำถูก 9 จาก 12 ข้อ คิดเป็น 75%",
+        "ถ้าข้อผิดหน่วยจาก 4 เหลือ 1 ข้อ ให้ดูว่าจำนวนข้อที่ต้องแปลงหน่วยใกล้เคียงกันหรือไม่"
+      ],
+      "caution": "อย่าตีความคะแนนฝึกเป็นโอกาสสอบติดโดยตรง",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "A1",
+        "A2",
+        "F4",
+        "E1",
+        "B1"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "d17-q01",
+      "number": 1,
+      "subject": "math",
+      "prompt": "มีคน 40 คน ลงชมรม A 19 คน ชมรม B 18 คน และไม่ลงทั้งสอง 8 คน ลงทั้งคู่กี่คน?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32 คน"
+        },
+        {
+          "id": "b",
+          "text": "8 คน"
+        },
+        {
+          "id": "c",
+          "text": "5 คน"
+        },
+        {
+          "id": "d",
+          "text": "13 คน"
+        }
+      ],
+      "source": {
+        "study": 11,
+        "answer": 42
+      },
+      "topic": "เซต",
+      "level": "วิเคราะห์",
+      "refs": [
+        "S1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "หาสหภาพ 32 ก่อน แล้วหาผลนับซ้ำ 37−32",
+        "check": "เฉพาะ A 14 เฉพาะ B 13 ทั้งคู่ 5 และไม่ลง 8 รวม 40 ตรวจเชิงตัวเลขได้ 5 คน",
+        "caution": "",
+        "review": "เซต [S1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 5,
+      "reviewTitle": "เซต"
+    },
+    {
+      "id": "d17-q02",
+      "number": 2,
+      "subject": "math",
+      "prompt": "ผลคูณ √8 × √50 มีค่าเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "400"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "source": {
+        "study": 11,
+        "answer": 42
+      },
+      "topic": "กรณฑ์",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "คูณใต้รากเป็น √400",
+        "check": "ย่อเป็น (2√2)(5√2) ตรวจเชิงตัวเลขได้ 20",
+        "caution": "",
+        "review": "กรณฑ์ [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 2,
+      "reviewTitle": "กรณฑ์"
+    },
+    {
+      "id": "d17-q03",
+      "number": 3,
+      "subject": "math",
+      "prompt": "รากจริงที่เป็นบวกของ 2x²−5x−3=0 มีค่าเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.5"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "−0.5"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "source": {
+        "study": 12,
+        "answer": 43
+      },
+      "topic": "สมการกำลังสอง",
+      "level": "วิเคราะห์",
+      "refs": [
+        "A2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แยก (2x+1)(x−3) รากคือ −1/2 กับ 3",
+        "check": "สูตรกำลังสองได้ (5+7)/4=3 และแทนกลับได้ศูนย์ ตรวจเชิงตัวเลขได้ 3",
+        "caution": "",
+        "review": "สมการกำลังสอง [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 2,
+      "reviewTitle": "สมการกำลังสอง"
+    },
+    {
+      "id": "d17-q04",
+      "number": 4,
+      "subject": "math",
+      "prompt": "ตารางมีจุด (2,11) กับ (6,−1) บนเส้นเดียวกัน ความชันเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "−3"
+        },
+        {
+          "id": "c",
+          "text": "−1/3"
+        },
+        {
+          "id": "d",
+          "text": "−12"
+        }
+      ],
+      "source": {
+        "study": 12,
+        "answer": 43
+      },
+      "topic": "ความชัน",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "เมื่อ x เพิ่ม 4 หน่วย y ลด 12 หน่วย",
+        "check": "เส้น y=−3x+17 ให้ y=11 และ −1 ที่พิกัดที่ระบุ ตรวจเชิงตัวเลขได้ −3",
+        "caution": "",
+        "review": "ความชัน [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 5,
+      "reviewTitle": "กราฟและความสัมพันธ์เชิงเส้น"
+    },
+    {
+      "id": "d17-q05",
+      "number": 5,
+      "subject": "math",
+      "prompt": "เงาเสา 12 m เงาไม้สูง 1.5 m ยาว 2 m ที่เวลาเดียวกันบนพื้นราบ เสาสูงเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "9 m"
+        },
+        {
+          "id": "b",
+          "text": "16 m"
+        },
+        {
+          "id": "c",
+          "text": "8 m"
+        },
+        {
+          "id": "d",
+          "text": "12 m"
+        }
+      ],
+      "source": {
+        "study": 13,
+        "answer": 44
+      },
+      "topic": "ความคล้าย",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "มุมแดดเดียวกันทำให้ความสูงต่อความยาวเงาเท่ากัน",
+        "check": "เงาเสายาวหกเท่าของเงาไม้ จึงสูงหกเท่า ตรวจเชิงตัวเลขได้ 9 m",
+        "caution": "",
+        "review": "ความคล้าย [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "04",
+      "reviewChapter": 2,
+      "reviewTitle": "สามเหลี่ยม รูปหลายเหลี่ยม และความคล้าย"
+    },
+    {
+      "id": "d17-q06",
+      "number": 6,
+      "subject": "math",
+      "prompt": "ถังทรงกระบอกเปิดด้านบนรัศมี 4 cm สูง 9 cm ต้องใช้พื้นที่กี่เท่าของ π cm² โดยไม่คิดรอยพับ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "104"
+        },
+        {
+          "id": "b",
+          "text": "144"
+        },
+        {
+          "id": "c",
+          "text": "88"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "source": {
+        "study": 13,
+        "answer": 44
+      },
+      "topic": "พื้นที่ผิว",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "นับผิวข้างและฐานล่างเพียงฐานเดียว",
+        "check": "คลี่ผิวข้างเป็นกว้าง 8π สูง 9 แล้วบวกวงกลม 16π ตรวจเชิงตัวเลขได้ 88",
+        "caution": "",
+        "review": "พื้นที่ผิว [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 2,
+      "reviewTitle": "พื้นที่ผิวและปริมาตร"
+    },
+    {
+      "id": "d17-q07",
+      "number": 7,
+      "subject": "math",
+      "prompt": "ระยะระหว่าง (−3,−2) กับ (2,10) เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 หน่วย"
+        },
+        {
+          "id": "b",
+          "text": "13 หน่วย"
+        },
+        {
+          "id": "c",
+          "text": "17 หน่วย"
+        },
+        {
+          "id": "d",
+          "text": "169 หน่วย"
+        }
+      ],
+      "source": {
+        "study": 14,
+        "answer": 45
+      },
+      "topic": "พิกัด",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A3"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ผลต่างแกน 5 และ 12 ใช้พีทาโกรัส",
+        "check": "ชุด 5–12–13 ให้ 25+144=169 ตรวจเชิงตัวเลขได้ 13 หน่วย",
+        "caution": "",
+        "review": "พิกัด [A3]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 3,
+      "reviewTitle": "พิกัดฉากและระยะห่าง"
+    },
+    {
+      "id": "d17-q08",
+      "number": 8,
+      "subject": "math",
+      "prompt": "เดินขึ้นทางลาดยาว 14 m ทำมุม 60° กับพื้น ระยะฉายตามแนวราบเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 m"
+        },
+        {
+          "id": "b",
+          "text": "7√(3) m"
+        },
+        {
+          "id": "c",
+          "text": "14 m"
+        },
+        {
+          "id": "d",
+          "text": "28 m"
+        }
+      ],
+      "source": {
+        "study": 14,
+        "answer": 45
+      },
+      "topic": "ตรีโกณมิติ",
+      "level": "พื้นฐาน",
+      "refs": [
+        "T1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ระยะราบคือด้านประชิด 14 cos60°",
+        "check": "มุมกับแนวดิ่ง 30° ระยะราบจึงเป็น 14 sin30° ตรวจเชิงตัวเลขได้ 7 m",
+        "caution": "",
+        "review": "ตรีโกณมิติ [T1]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 4,
+      "reviewTitle": "อัตราส่วนตรีโกณมิติและความสูง"
+    },
+    {
+      "id": "d17-q09",
+      "number": 9,
+      "subject": "math",
+      "prompt": "มีลูกเขียว 2 ลูก เหลือง 3 ลูก หยิบสองครั้งไม่คืน โอกาสได้สีต่างกันเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.48"
+        },
+        {
+          "id": "b",
+          "text": "0.6"
+        },
+        {
+          "id": "c",
+          "text": "0.3"
+        },
+        {
+          "id": "d",
+          "text": "0.4"
+        }
+      ],
+      "source": {
+        "study": 15,
+        "answer": 46
+      },
+      "topic": "ความน่าจะเป็น",
+      "level": "วิเคราะห์",
+      "refs": [
+        "S7"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "บวกเส้นทางเขียวแล้วเหลืองกับเหลืองแล้วเขียว",
+        "check": "นับคู่ไม่เรียงได้ 2×3=6 คู่ จากทั้งหมด 10 คู่ ตรวจเชิงตัวเลขได้ 0.6",
+        "caution": "",
+        "review": "ความน่าจะเป็น [S7]"
+      },
+      "chapter": 1,
+      "reviewDay": "07",
+      "reviewChapter": 2,
+      "reviewTitle": "ความน่าจะเป็น"
+    },
+    {
+      "id": "d17-q10",
+      "number": 10,
+      "subject": "math",
+      "prompt": "สำหรับงานปริมาณคงที่ ช่าง 6 คนใช้ 10 วัน ถ้าเหลือ 4 คนอัตราต่อคนเท่าเดิม ใช้เวลากี่วัน?",
+      "options": [
+        {
+          "id": "a",
+          "text": "24 วัน"
+        },
+        {
+          "id": "b",
+          "text": "15 วัน"
+        },
+        {
+          "id": "c",
+          "text": "12 วัน"
+        },
+        {
+          "id": "d",
+          "text": "6 วัน"
+        }
+      ],
+      "source": {
+        "study": 15,
+        "answer": 46
+      },
+      "topic": "การแปรผัน",
+      "level": "ประยุกต์",
+      "refs": [
+        "A4"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ใช้จำนวนคน×เวลาเท่ากับ 60 คน·วัน",
+        "check": "ทำงานช้าลงเป็น 2/3 จึงใช้เวลา 3/2 เท่า ตรวจเชิงตัวเลขได้ 15 วัน",
+        "caution": "",
+        "review": "การแปรผัน [A4]"
+      },
+      "chapter": 1,
+      "reviewDay": "07",
+      "reviewChapter": 3,
+      "reviewTitle": "การแปรผัน"
+    },
+    {
+      "id": "d17-q11",
+      "number": 11,
+      "subject": "science",
+      "prompt": "จากกราฟความเร็วกับเวลา การกระจัดใน 0–4 s เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 m"
+        },
+        {
+          "id": "b",
+          "text": "32 m"
+        },
+        {
+          "id": "c",
+          "text": "16 m"
+        },
+        {
+          "id": "d",
+          "text": "24 m"
+        }
+      ],
+      "source": {
+        "study": 16,
+        "answer": 47
+      },
+      "figure": {
+        "url": "figures/velocity.png",
+        "alt": "กราฟความเร็ว v (m/s) กับเวลา t (s) เส้นตรงจาก (0,2) ถึง (4,8)"
+      },
+      "topic": "การกระจัด",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "อ่าน v ที่ t=0 ได้ 2 m/s และที่ t=4 ได้ 8 m/s พื้นที่ใต้กราฟ = (2+8)×4/2",
+        "check": "แยกพื้นที่สี่เหลี่ยม 8 กับสามเหลี่ยม 12 ตรวจเชิงตัวเลขได้ 20 m",
+        "caution": "",
+        "review": "การกระจัด [F2]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 9,
+      "reviewTitle": "อ่านกราฟการเคลื่อนที่"
+    },
+    {
+      "id": "d17-q12",
+      "number": 12,
+      "subject": "science",
+      "prompt": "ผลักลังแนวราบ 35 N แล้วเคลื่อนที่เป็นเส้นตรงด้วยอัตราเร็วคงที่ ถ้าแรงแนวราบอีกแรงเดียวคือ เสียดทาน ขนาดเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0 N"
+        },
+        {
+          "id": "b",
+          "text": "17.5 N"
+        },
+        {
+          "id": "c",
+          "text": "35 N"
+        },
+        {
+          "id": "d",
+          "text": "70 N"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 47
+      },
+      "topic": "แรงเสียดทาน",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F4"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ความเร่งศูนย์ จึงต้องมีแรงต้าน 35 N",
+        "check": "ถ้าน้อยหรือมากกว่าจะมีแรงลัพธ์และความเร็วเปลี่ยน ตรวจเชิงตัวเลขได้ 35 N",
+        "caution": "",
+        "review": "แรงเสียดทาน [F4]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 5,
+      "reviewTitle": "แรงและแผนภาพแรง"
+    },
+    {
+      "id": "d17-q13",
+      "number": 13,
+      "subject": "science",
+      "prompt": "รถมวล 2 kg เพิ่มอัตราเร็วจาก 3 เป็น 5 m/s งานสุทธิเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8 J"
+        },
+        {
+          "id": "b",
+          "text": "4 J"
+        },
+        {
+          "id": "c",
+          "text": "16 J"
+        },
+        {
+          "id": "d",
+          "text": "34 J"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 48
+      },
+      "topic": "พลังงาน",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F7"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "Wสุทธิ=K₂−K₁=25−9",
+        "check": "ใช้ผลต่างกำลังสอง 2×8 ตรวจเชิงตัวเลขได้ 16 J",
+        "caution": "",
+        "review": "พลังงาน [F7]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 7,
+      "reviewTitle": "พลังงานกล"
+    },
+    {
+      "id": "d17-q14",
+      "number": 14,
+      "subject": "science",
+      "prompt": "แรง 40 N กระทำที่ระยะ 0.5 m จากจุดหมุน ทำมุม 30° กับคาน โมเมนต์มีขนาดเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 N·m"
+        },
+        {
+          "id": "b",
+          "text": "5 N·m"
+        },
+        {
+          "id": "c",
+          "text": "40 N·m"
+        },
+        {
+          "id": "d",
+          "text": "20 N·m"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 48
+      },
+      "topic": "โมเมนต์",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F9"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "องค์ประกอบตั้งฉากกับคาน 40 sin30°=20 N คูณระยะ 0.5 m",
+        "check": "แขนแรงตั้งฉากกับแนวแรงเท่ากับ 0.5 sin30°=0.25 m ตรวจเชิงตัวเลขได้ 10 N·m",
+        "caution": "",
+        "review": "โมเมนต์ [F9]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 8,
+      "reviewTitle": "โมเมนต์ของแรง"
+    },
+    {
+      "id": "d17-q15",
+      "number": 15,
+      "subject": "science",
+      "prompt": "น้ำ 0.2 kg อุ่นจาก 25°C ถึง 40°C ใช้ c=4200 J/(kg·°C) ต้องรับความร้อนเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8400 J"
+        },
+        {
+          "id": "b",
+          "text": "1260 J"
+        },
+        {
+          "id": "c",
+          "text": "12600 J"
+        },
+        {
+          "id": "d",
+          "text": "33600 J"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 49
+      },
+      "topic": "ความร้อน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F14"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ΔT=15°C ใช้ Q=mcΔT",
+        "check": "น้ำส่วนนี้จุความร้อน 840 J ต่อการเพิ่ม 1°C ตรวจเชิงตัวเลขได้ 12600 J",
+        "caution": "",
+        "review": "ความร้อน [F14]"
+      },
+      "chapter": 1,
+      "reviewDay": "04",
+      "reviewChapter": 5,
+      "reviewTitle": "อุณหภูมิและปริมาณความร้อน"
+    },
+    {
+      "id": "d17-q16",
+      "number": 16,
+      "subject": "science",
+      "prompt": "เสียง v=330 m/s มีความถี่ 220 Hz ระยะระหว่างบริเวณอัดติดกันเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 m"
+        },
+        {
+          "id": "b",
+          "text": "0.75 m"
+        },
+        {
+          "id": "c",
+          "text": "2/3 m"
+        },
+        {
+          "id": "d",
+          "text": "110 m"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 49
+      },
+      "topic": "คลื่นเสียง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F17"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "บริเวณอัดติดกันห่างหนึ่งความยาวคลื่น λ=v/f",
+        "check": "1.5 m×220 Hz=330 m/s ตรวจเชิงตัวเลขได้ 1.5 m",
+        "caution": "",
+        "review": "คลื่นเสียง [F17]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 6,
+      "reviewTitle": "เสียงและเสียงสะท้อน"
+    },
+    {
+      "id": "d17-q17",
+      "number": 17,
+      "subject": "science",
+      "prompt": "รังสีตกทำมุม 42° จากเส้นฉาก มุมสะท้อนที่วัดจากผิวเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "84 °"
+        },
+        {
+          "id": "b",
+          "text": "42 °"
+        },
+        {
+          "id": "c",
+          "text": "138 °"
+        },
+        {
+          "id": "d",
+          "text": "48 °"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 50
+      },
+      "topic": "การสะท้อน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F25"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "มุมสะท้อนจากเส้นฉาก 42° จึงเหลือ 48° จากผิว",
+        "check": "สองมุมนี้ประกอบกันเป็นมุมฉาก ตรวจเชิงตัวเลขได้ 48 °",
+        "caution": "",
+        "review": "การสะท้อน [F25]"
+      },
+      "chapter": 1,
+      "reviewDay": "07",
+      "reviewChapter": 4,
+      "reviewTitle": "การสะท้อนและการหักเห"
+    },
+    {
+      "id": "d17-q18",
+      "number": 18,
+      "subject": "science",
+      "prompt": "ตัวต้านทาน 3 Ω กับ R อนุกรมกับ 18 V มีกระแส 2 A ค่า R เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12 Ω"
+        },
+        {
+          "id": "b",
+          "text": "3 Ω"
+        },
+        {
+          "id": "c",
+          "text": "6 Ω"
+        },
+        {
+          "id": "d",
+          "text": "9 Ω"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 50
+      },
+      "topic": "วงจรอนุกรม",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F21"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ความต้านทานรวม 9 Ω หัก 3 Ω",
+        "check": "แรงดันตกที่ 3 Ω เป็น 6 V เหลือ 12 V ที่ R และ I=2 A ตรวจเชิงตัวเลขได้ 6 Ω",
+        "caution": "",
+        "review": "วงจรอนุกรม [F21]"
+      },
+      "chapter": 1,
+      "reviewDay": "08",
+      "reviewChapter": 2,
+      "reviewTitle": "วงจรอนุกรมและขนาน"
+    },
+    {
+      "id": "d17-q19",
+      "number": 19,
+      "subject": "science",
+      "prompt": "อุปกรณ์ 120 W เปิด 15 min ใช้พลังงานกี่ Wh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 Wh"
+        },
+        {
+          "id": "b",
+          "text": "8 Wh"
+        },
+        {
+          "id": "c",
+          "text": "120 Wh"
+        },
+        {
+          "id": "d",
+          "text": "1800 Wh"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 51
+      },
+      "topic": "พลังงานไฟฟ้า",
+      "level": "ประยุกต์",
+      "refs": [
+        "F20P"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "เวลา 15 min เป็น 0.25 h ใช้ E=Pt",
+        "check": "1 ชั่วโมงใช้ 120 Wh หนึ่งในสี่ชั่วโมงใช้ 30 Wh ตรวจเชิงตัวเลขได้ 30 Wh",
+        "caution": "",
+        "review": "พลังงานไฟฟ้า [F20P]"
+      },
+      "chapter": 1,
+      "reviewDay": "08",
+      "reviewChapter": 3,
+      "reviewTitle": "กำลังและพลังงานไฟฟ้า"
+    },
+    {
+      "id": "d17-q20",
+      "number": 20,
+      "subject": "science",
+      "prompt": "ในแบบจำลองโซลินอยด์ยาว กระแสลดครึ่งและจำนวนรอบต่อความยาวเพิ่มสามเท่า สนามด้านในเป็นกี่ เท่าเดิม?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 เท่า"
+        },
+        {
+          "id": "b",
+          "text": "0.5 เท่า"
+        },
+        {
+          "id": "c",
+          "text": "6 เท่า"
+        },
+        {
+          "id": "d",
+          "text": "1.5 เท่า"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 51
+      },
+      "topic": "แม่เหล็กไฟฟ้า",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F22S"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "สนามแปรตรงกับผลคูณของกระแสและรอบต่อความยาว",
+        "check": "เทียบ nI ใหม่เป็น (3n)(I/2)=1.5 nI ตรวจเชิงตัวเลขได้ 1.5 เท่า",
+        "caution": "",
+        "review": "แม่เหล็กไฟฟ้า [F22S]"
+      },
+      "chapter": 1,
+      "reviewDay": "08",
+      "reviewChapter": 4,
+      "reviewTitle": "สนามแม่เหล็กและการเหนี่ยวนำ"
+    },
+    {
+      "id": "d17-q21",
+      "number": 21,
+      "subject": "trade",
+      "prompt": "ในอุปกรณ์ DC ที่ใช้ตัวเก็บประจุขนาดใหญ่ หลังตัดไฟยังต้องตรวจอะไรตามคู่มือ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "แรงดันค้างที่ตัวเก็บประจุ"
+        },
+        {
+          "id": "b",
+          "text": "สีแถบตัวต้านทานเท่านั้น"
+        },
+        {
+          "id": "c",
+          "text": "ความยาวสายไฟเท่านั้น"
+        },
+        {
+          "id": "d",
+          "text": "สวิตช์เปิดแปลว่าไม่มีประจุแน่นอน"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 52
+      },
+      "topic": "ตัวเก็บประจุ",
+      "level": "พื้นฐาน",
+      "refs": [
+        "E1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ตัวเก็บประจุเก็บพลังงานและอาจมีแรงดันค้าง",
+        "check": "การคายประจุอาศัยเส้นทางและเวลา จึงไม่อนุมานจากตำแหน่งสวิตช์อย่างเดียว",
+        "caution": "",
+        "review": "ตัวเก็บประจุ [E1]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 1,
+      "reviewTitle": "สัญลักษณ์ อุปกรณ์ และหน่วย"
+    },
+    {
+      "id": "d17-q22",
+      "number": 22,
+      "subject": "trade",
+      "prompt": "วงจร LED 6 V มี Vf=2.4 V และ I=12 mA กำลังที่ตัวต้านทานอนุกรมเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.432 W"
+        },
+        {
+          "id": "b",
+          "text": "0.0288 W"
+        },
+        {
+          "id": "c",
+          "text": "0.072 W"
+        },
+        {
+          "id": "d",
+          "text": "0.0432 W"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 52
+      },
+      "topic": "LED และกำลัง",
+      "level": "ประยุกต์",
+      "refs": [
+        "E2",
+        "F20P"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แรงดันที่ R คือ 3.6 V คูณ 0.012 A",
+        "check": "คำนวณ R=300 Ω แล้วใช้ I²R=0.0432 W",
+        "caution": "",
+        "review": "LED และกำลัง [E2] [F20P]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 2,
+      "reviewTitle": "ไดโอด LED และการจำกัดกระแส"
+    },
+    {
+      "id": "d17-q23",
+      "number": 23,
+      "subject": "trade",
+      "prompt": "พบฟิวส์ขาดในชุดทดลองแรงดันต่ำ การตอบสนองใดเหมาะสมตามหลักการ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "เปิดจ่ายซ้ำโดยลัดขั้วฟิวส์"
+        },
+        {
+          "id": "b",
+          "text": "ตัดแหล่งจ่าย ตรวจสาเหตุและใช้ฟิวส์ตามพิกัดที่ กำหนด"
+        },
+        {
+          "id": "c",
+          "text": "เพิ่มพิกัดฟิวส์โดยไม่ตรวจโหลด"
+        },
+        {
+          "id": "d",
+          "text": "ใช้ลวดแทนฟิวส์"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 53
+      },
+      "topic": "ฟิวส์",
+      "level": "พื้นฐาน",
+      "refs": [
+        "E1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ฟิวส์ขาดอาจเกิดจากภาวะกระแสเกิน ต้องตรวจสาเหตุก่อนคืนระบบ",
+        "check": "ฟิวส์กำหนดทั้งพิกัดกระแสและชนิด การบายพาสยกเลิกการป้องกัน",
+        "caution": "",
+        "review": "ฟิวส์ [E1]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 1,
+      "reviewTitle": "สัญลักษณ์ อุปกรณ์ และหน่วย"
+    },
+    {
+      "id": "d17-q24",
+      "number": 24,
+      "subject": "trade",
+      "prompt": "ต้องการให้วงจรแจ้งสถานะปิดเมื่อรีเลย์ทั่วไปไม่มีกระแสคอยล์ และเปิดเมื่อคอยล์ทำงาน ควรใช้คู่ใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "COM–NC"
+        },
+        {
+          "id": "b",
+          "text": "NO–NC โดยไม่ใช้ COM"
+        },
+        {
+          "id": "c",
+          "text": "ขาคอยล์แทนหน้าสัมผัส"
+        },
+        {
+          "id": "d",
+          "text": "COM–NO"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 53
+      },
+      "topic": "หน้าสัมผัสรีเลย์",
+      "level": "ประยุกต์",
+      "refs": [
+        "E1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "NC ปิดในสถานะปกติที่ไม่กระตุ้น",
+        "check": "ทดสอบตามผังสถานะ คอยล์ทำงานแล้ว COM เคลื่อนไป NO",
+        "caution": "",
+        "review": "หน้าสัมผัสรีเลย์ [E1]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 3,
+      "reviewTitle": "ทรานซิสเตอร์ รีเลย์ และการป้องกัน"
+    },
+    {
+      "id": "d17-q25",
+      "number": 25,
+      "subject": "trade",
+      "prompt": "จะตรวจค่า R ตัวหนึ่งที่ยังมีตัวอื่นต่อขนาน ในวงจรตัดไฟและจัดการประจุแล้ว ควรทำอย่างไร?",
+      "options": [
+        {
+          "id": "a",
+          "text": "เปิดไฟเต็มพิกัดก่อนวัด Ω"
+        },
+        {
+          "id": "b",
+          "text": "วัดคร่อมทั้งหมดแล้วถือว่าเป็นค่า R"
+        },
+        {
+          "id": "c",
+          "text": "วัดแค่แรงดัน AC ที่กราวด์"
+        },
+        {
+          "id": "d",
+          "text": "แยกปลาย R อย่างน้อยหนึ่งด้านก่อนวัด"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 54
+      },
+      "topic": "การวัดความต้านทาน",
+      "level": "ประยุกต์",
+      "refs": [
+        "E1",
+        "F21"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "การแยกขาหนึ่งตัดเส้นทางขนานออกจากมิเตอร์",
+        "check": "R คู่ขนานทำให้ค่าที่วัดรวมต่ำกว่าค่า R ตัวเดียว",
+        "caution": "",
+        "review": "การวัดความต้านทาน [E1] [F21]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 4,
+      "reviewTitle": "มัลติมิเตอร์และวิเคราะห์วงจรพื้นฐาน"
+    },
+    {
+      "id": "d17-q26",
+      "number": 26,
+      "subject": "trade",
+      "prompt": "เฟืองภายนอก A 12 ฟัน ขับเฟืองกลาง 20 ฟัน แล้วขับ C 36 ฟัน ถ้า A หมุน 150 rpm รอบ C คือข้อใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "90 rpm ทิศเดียวกับ A"
+        },
+        {
+          "id": "b",
+          "text": "450 rpm สวนกับ A"
+        },
+        {
+          "id": "c",
+          "text": "50 rpm ทิศเดียวกับ A"
+        },
+        {
+          "id": "d",
+          "text": "50 rpm สวนกับ A"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 54
+      },
+      "topic": "เฟือง",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F9M"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "อัตราทดรวม 12/36 และกลับทิศสองครั้ง",
+        "check": "คำนวณ B=90 rpm แล้ว C=90×20/36=50 rpm",
+        "caution": "",
+        "review": "เฟือง [F9M]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 1,
+      "reviewTitle": "เครื่องกลอย่างง่ายและการส่งกำลัง"
+    },
+    {
+      "id": "d17-q27",
+      "number": 27,
+      "subject": "trade",
+      "prompt": "คานเบามีโหลด 180 N ห่างจุดหมุน 0.2 m จะกดตั้งฉากด้านตรงข้ามที่ 0.6 m ด้วยแรงเท่าใดจึง สมดุล?",
+      "options": [
+        {
+          "id": "a",
+          "text": "36 N"
+        },
+        {
+          "id": "b",
+          "text": "120 N"
+        },
+        {
+          "id": "c",
+          "text": "60 N"
+        },
+        {
+          "id": "d",
+          "text": "540 N"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 55
+      },
+      "topic": "คาน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F9M"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "โมเมนต์โหลด 36 N·m หาร 0.6 m",
+        "check": "แขนแรงเข้า 3 เท่า จึงใช้แรงหนึ่งในสามของ 180 N",
+        "caution": "",
+        "review": "คาน [F9M]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 1,
+      "reviewTitle": "เครื่องกลอย่างง่ายและการส่งกำลัง"
+    },
+    {
+      "id": "d17-q28",
+      "number": 28,
+      "subject": "trade",
+      "prompt": "เวอร์เนียร์อ่านดิบ 13.44 mm และคลาดศูนย์ +0.02 mm ค่าที่รายงานหลังแก้เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "13.02 mm"
+        },
+        {
+          "id": "b",
+          "text": "13.42 mm"
+        },
+        {
+          "id": "c",
+          "text": "13.46 mm"
+        },
+        {
+          "id": "d",
+          "text": "13.44 mm"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 55
+      },
+      "topic": "การวัดละเอียด",
+      "level": "ประยุกต์",
+      "refs": [
+        "M1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ลบค่าคลาดบวก 0.02 mm",
+        "check": "บวกค่าคลาด 0.02 กลับเข้ากับ 13.42 ได้ 13.44",
+        "caution": "",
+        "review": "การวัดละเอียด [M1]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 2,
+      "reviewTitle": "เครื่องมือวัดและการอ่านสเกล"
+    },
+    {
+      "id": "d17-q29",
+      "number": 29,
+      "subject": "trade",
+      "prompt": "ระยะจริง 7.5 m วาดในแบบ 1:150 ควรยาวเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1125 mm"
+        },
+        {
+          "id": "b",
+          "text": "500 mm"
+        },
+        {
+          "id": "c",
+          "text": "50 mm"
+        },
+        {
+          "id": "d",
+          "text": "5 mm"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 56
+      },
+      "topic": "มาตราส่วน",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "7.5 m=7500 mm หาร 150 ได้ 50 mm",
+        "check": "5 cm×150=750 cm=7.5 m",
+        "caution": "",
+        "review": "มาตราส่วน [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 3,
+      "reviewTitle": "พื้นฐานโยธา โครงสร้าง และมาตราส่วน"
+    },
+    {
+      "id": "d17-q30",
+      "number": 30,
+      "subject": "trade",
+      "prompt": "แท่งหน้าตัด 50 mm² รับแรงดึงแนวแกน 500 N ความเค้นเฉลี่ยเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 MPa"
+        },
+        {
+          "id": "b",
+          "text": "10 MPa"
+        },
+        {
+          "id": "c",
+          "text": "10 Pa"
+        },
+        {
+          "id": "d",
+          "text": "0.1 MPa"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 56
+      },
+      "topic": "ความเค้น",
+      "level": "ประยุกต์",
+      "refs": [
+        "F5"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "500/50=10 N/mm² ซึ่งเท่ากับ 10 MPa",
+        "check": "10 ล้าน N/m² คูณ 50×10⁻⁶ m² ได้ 500 N",
+        "caution": "",
+        "review": "ความเค้น [F5]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 3,
+      "reviewTitle": "พื้นฐานโยธา โครงสร้าง และมาตราส่วน"
+    },
+    {
+      "id": "d17-q31",
+      "number": 31,
+      "subject": "english",
+      "prompt": "Which phrase is correct for exactly two pieces of equipment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "two equipments"
+        },
+        {
+          "id": "b",
+          "text": "two pieces of equipment"
+        },
+        {
+          "id": "c",
+          "text": "two piece of equipment"
+        },
+        {
+          "id": "d",
+          "text": "an equipments"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 57
+      },
+      "topic": "Noun",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "equipment นับไม่ได้ จึงนับผ่าน pieces of",
+        "check": "two ต้องตามด้วย pieces รูปพหูพจน์",
+        "caution": "",
+        "review": "Noun [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "11",
+      "reviewChapter": 1,
+      "reviewTitle": "Nouns, pronouns และ articles"
+    },
+    {
+      "id": "d17-q32",
+      "number": 32,
+      "subject": "english",
+      "prompt": "The class ___ this room since June and still uses it today.",
+      "options": [
+        {
+          "id": "a",
+          "text": "has used"
+        },
+        {
+          "id": "b",
+          "text": "have uses"
+        },
+        {
+          "id": "c",
+          "text": "used yesterday"
+        },
+        {
+          "id": "d",
+          "text": "using"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 57
+      },
+      "topic": "Tense",
+      "level": "ประยุกต์",
+      "refs": [
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "since และ still เชื่อมถึงปัจจุบัน ใช้ has + V3 กับ class เอกพจน์",
+        "check": "แทน class ด้วย it จะได้ it has used",
+        "caution": "",
+        "review": "Tense [B2]"
+      },
+      "chapter": 1,
+      "reviewDay": "11",
+      "reviewChapter": 2,
+      "reviewTitle": "Verbs และ tenses"
+    },
+    {
+      "id": "d17-q33",
+      "number": 33,
+      "subject": "english",
+      "prompt": "Which asks about the person who sent the message?",
+      "options": [
+        {
+          "id": "a",
+          "text": "When was the message sent?"
+        },
+        {
+          "id": "b",
+          "text": "Who did you send the message to?"
+        },
+        {
+          "id": "c",
+          "text": "Who sent the message?"
+        },
+        {
+          "id": "d",
+          "text": "Which message did you read?"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 58
+      },
+      "topic": "Question",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "who เป็นประธานผู้ส่ง ในประโยค Who sent the message?",
+        "check": "ตัวเลือกที่มี to ถามผู้รับข้อความ",
+        "caution": "",
+        "review": "Question [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "11",
+      "reviewChapter": 3,
+      "reviewTitle": "Modals และ questions"
+    },
+    {
+      "id": "d17-q34",
+      "number": 34,
+      "subject": "english",
+      "prompt": "___ the instructions were short, several students found them confusing.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unless"
+        },
+        {
+          "id": "b",
+          "text": "So"
+        },
+        {
+          "id": "c",
+          "text": "Therefore"
+        },
+        {
+          "id": "d",
+          "text": "Although"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 58
+      },
+      "topic": "Conjunction",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "เนื้อหาสองส่วนขัดกับความคาดหมาย จึงใช้ although",
+        "check": "เขียนกลับเป็น The instructions were short, but several students found them confusing.",
+        "caution": "",
+        "review": "Conjunction [B2]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 2,
+      "reviewTitle": "Conjunctions, passive และ relative clauses"
+    },
+    {
+      "id": "d17-q35",
+      "number": 35,
+      "subject": "english",
+      "prompt": "Choose the passive form of “The teacher checks the tools every Monday.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "The tools check the teacher every Monday."
+        },
+        {
+          "id": "b",
+          "text": "The tools are checking every Monday."
+        },
+        {
+          "id": "c",
+          "text": "The tools were checked every Monday."
+        },
+        {
+          "id": "d",
+          "text": "The tools are checked every Monday."
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 59
+      },
+      "topic": "Passive",
+      "level": "ประยุกต์",
+      "refs": [
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "กิจวัตรปัจจุบันและ tools พหูพจน์ ใช้ are + checked",
+        "check": "ใส่ by the teacher เพิ่มได้โดยความหมายเดิม",
+        "caution": "",
+        "review": "Passive [B2]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 2,
+      "reviewTitle": "Conjunctions, passive และ relative clauses"
+    },
+    {
+      "id": "d17-q36",
+      "number": 36,
+      "subject": "english",
+      "prompt": "The machine ___ stopped is near the door. (เลือก relative pronoun สำหรับ สิ่งของ)",
+      "options": [
+        {
+          "id": "a",
+          "text": "where"
+        },
+        {
+          "id": "b",
+          "text": "which"
+        },
+        {
+          "id": "c",
+          "text": "who"
+        },
+        {
+          "id": "d",
+          "text": "whom"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 59
+      },
+      "topic": "Relative clause",
+      "level": "ประยุกต์",
+      "refs": [
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "which แทน machine และทำหน้าที่ประธานของ stopped",
+        "check": "แยกได้ The machine stopped. The machine is near the door.",
+        "caution": "",
+        "review": "Relative clause [B2]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 2,
+      "reviewTitle": "Conjunctions, passive และ relative clauses"
+    },
+    {
+      "id": "d17-q37",
+      "number": 37,
+      "subject": "english",
+      "prompt": "“Group A starts in Room 2 at 9:00. Group B reports to Room 5 at 9:30.” Where and when does Group B report?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Room 2 at 9:00"
+        },
+        {
+          "id": "b",
+          "text": "Room 5 at 9:30"
+        },
+        {
+          "id": "c",
+          "text": "Room 2 at 9:30"
+        },
+        {
+          "id": "d",
+          "text": "Room 5 at 9:00"
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 60
+      },
+      "topic": "Reading",
+      "level": "ประยุกต์",
+      "refs": [
+        "BR"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ข้อมูลของ Group B อยู่ในประโยคที่สอง",
+        "check": "จับคู่ห้องและเวลาในบรรทัดเดียวกัน",
+        "caution": "",
+        "review": "Reading [BR]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 3,
+      "reviewTitle": "Vocabulary และ reading"
+    },
+    {
+      "id": "d17-q38",
+      "number": 38,
+      "subject": "english",
+      "prompt": "“The replacement part is out of stock.” What does this mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The part is free of charge."
+        },
+        {
+          "id": "b",
+          "text": "The part is outside the building."
+        },
+        {
+          "id": "c",
+          "text": "The part was just installed."
+        },
+        {
+          "id": "d",
+          "text": "The part is currently unavailable."
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 60
+      },
+      "topic": "Vocabulary",
+      "level": "ประยุกต์",
+      "refs": [
+        "BV"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "out of stock หมายถึงสินค้าหมด ไม่มีให้ตอนนี้",
+        "check": "ตรงข้ามกับ in stock ซึ่งหมายถึงมีสินค้าอยู่",
+        "caution": "",
+        "review": "Vocabulary [BV]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 3,
+      "reviewTitle": "Vocabulary และ reading"
+    },
+    {
+      "id": "d17-q39",
+      "number": 39,
+      "subject": "english",
+      "prompt": "A: I didn't catch the last instruction. B: ___ (เสนอพูดซ้ำ)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Let me repeat it."
+        },
+        {
+          "id": "b",
+          "text": "Let me turn it off."
+        },
+        {
+          "id": "c",
+          "text": "I arrived at eight."
+        },
+        {
+          "id": "d",
+          "text": "Please borrow it."
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 61
+      },
+      "topic": "Conversation",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BS"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "didn't catch ในบริบทคือฟังไม่ทัน จึงเสนอพูดซ้ำ",
+        "check": "repeat สอดคล้องกับการขอฟังอีกครั้ง",
+        "caution": "",
+        "review": "Conversation [BS]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 4,
+      "reviewTitle": "Conversation, cloze และ error identification"
+    },
+    {
+      "id": "d17-q40",
+      "number": 40,
+      "subject": "english",
+      "prompt": "เลือกส่วนผิด “The new guide / is / more clearer / than the old one.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "than the old one"
+        },
+        {
+          "id": "b",
+          "text": "is"
+        },
+        {
+          "id": "c",
+          "text": "The new guide"
+        },
+        {
+          "id": "d",
+          "text": "more clearer"
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 61
+      },
+      "topic": "Error",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "clearer เป็นขั้นกว่าแล้ว ไม่ใช้ more ซ้ำ",
+        "check": "แก้เป็น The new guide is clearer than the old one.",
+        "caution": "",
+        "review": "Error [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 4,
+      "reviewTitle": "Conversation, cloze และ error identification"
+    }
+  ],
+  "sources": {
+    "A1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 1 เลขยกกำลัง กรณฑ์ พหุนามและการแยก ตัวประกอบ",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-introduction-to-prerequisites"
+    },
+    "A2": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 2 สมการ อสมการ และพิกัด",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-introduction-to-equations-and-inequalities"
+    },
+    "A3": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) §2.1 พิกัด ระยะ และจุดกึ่งกลาง",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs"
+    },
+    "A4": {
+      "title": "OpenStax Elementary Algebra 2e (2020) §8.9 การแปรผันตรงและผกผัน",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/8-9-use-direct-and-inverse-variation"
+    },
+    "B1": {
+      "title": "British Council LearnEnglish A1–A2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    "B2": {
+      "title": "British Council LearnEnglish B1–B2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    "BR": {
+      "title": "British Council LearnEnglish A2 Reading",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a2"
+    },
+    "BS": {
+      "title": "British Council LearnEnglish A2 Speaking",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/speaking/a2"
+    },
+    "BV": {
+      "title": "British Council LearnEnglish A1–A2 English vocabulary",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/vocabulary/a1-a2"
+    },
+    "E1": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume I – DC วงจรและการวัดไฟฟ้า",
+      "url": "https://www.allaboutcircuits.com/textbook/direct-current/"
+    },
+    "E2": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume III – Semiconductors ไดโอดและ ทรานซิสเตอร์",
+      "url": "https://www.allaboutcircuits.com/textbook/semiconductors/"
+    },
+    "F14": {
+      "title": "OpenStax College Physics 2e (2022) บท 14 ความร้อนและการถ่ายเทความร้อน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-introduction-to-heat-and-heat-transfer-methods"
+    },
+    "F17": {
+      "title": "OpenStax College Physics 2e (2022) §17.2 อัตราเร็ว ความถี่ และความยาวคลื่นเสียง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+    },
+    "F2": {
+      "title": "OpenStax College Physics 2e (2022) บท 2 การเคลื่อนที่แนวตรง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics"
+    },
+    "F20P": {
+      "title": "OpenStax College Physics 2e (2022) §20.4 กำลังและพลังงานไฟฟ้า",
+      "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy"
+    },
+    "F21": {
+      "title": "OpenStax College Physics 2e (2022) §21.1 ตัวต้านทานอนุกรมและขนาน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel"
+    },
+    "F22S": {
+      "title": "OpenStax College Physics 2e (2022) §22.9 สนามของลวดตรงและโซลินอยด์",
+      "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law"
+    },
+    "F25": {
+      "title": "OpenStax College Physics 2e (2022) บท 25 ทัศนศาสตร์เชิงเรขาคณิต",
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics"
+    },
+    "F4": {
+      "title": "OpenStax College Physics 2e (2022) บท 4 แรงและกฎของนิวตัน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-introduction-to-dynamics-newtons-laws-of-motion"
+    },
+    "F5": {
+      "title": "OpenStax College Physics 2e (2022) §5.3 ความเค้นและความเครียด",
+      "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain"
+    },
+    "F7": {
+      "title": "OpenStax College Physics 2e (2022) บท 7 งาน พลังงาน และกำลัง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-introduction-to-work-energy-and-energy-resources"
+    },
+    "F9": {
+      "title": "OpenStax College Physics 2e (2022) §9.2 โมเมนต์และสมดุลการหมุน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium"
+    },
+    "F9M": {
+      "title": "OpenStax College Physics 2e (2022) §9.5 เครื่องกลอย่างง่าย",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines"
+    },
+    "G1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 10 เรขาคณิต",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-introduction"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    },
+    "M1": {
+      "title": "Rutgers University Instruction Manual: 0.1mm Vernier Caliper หลักสเกลหลักและสเกลเวอร์เนียร์",
+      "url": "https://www.des.rutgers.edu/physics/vc/"
+    },
+    "S1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 1 เซตและแผนภาพเวนน์",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/1-introduction"
+    },
+    "S7": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 7 การนับและความน่าจะเป็น",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-introduction"
+    },
+    "T1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) §7.2 ตรีโกณมิติสามเหลี่ยมมุมฉาก",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry"
+    }
+  },
+  "schedule": [
+    "20.00–22.00 สอบจำลอง 120 นาที ใช้กระดาษคำตอบและบันทึกข้อที่ข้าม",
+    "22.00–22.40 เปิดเฉลย ตรวจทีละวิชา และจดเหตุของข้อผิด",
+    "22.40–23.00 เลือกจุดอ่อนสองเรื่องแล้วลองอธิบายวิธีแก้ด้วยตนเอง"
+  ]
+}

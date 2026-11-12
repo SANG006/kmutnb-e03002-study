@@ -1,0 +1,1183 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "english",
+      "title": "Nouns, pronouns และ articles",
+      "goal": "เลือกคำนาม คำสรรพนาม และคำนำหน้านามให้เข้าบริบท",
+      "rules": [
+        "คำนามนับได้เอกพจน์ต้องมีตัวกำหนด คำนามนับไม่ได้ทั่วไปไม่ใช้ a/an ประธานใช้ I/he/they กรรมใช้ me/him/ them",
+        "a/an เลือกตามเสียงต้น ใช้ the เมื่อระบุได้ว่าหมายถึงสิ่งใด และใช้ my/your หน้าคำนาม",
+        "ทั่วไปใช้พหูพจน์หรือคำนามนับไม่ได้โดยไม่ต้องมี article เช่น Batteries store energy."
+      ],
+      "examples": [
+        "I found a screwdriver. The screwdriver was under the desk. ครั้งแรกยังไม่ชี้เฉพาะ ครั้งต่อมารู้ แล้วว่าอันไหน",
+        "Please give them the notes. them เป็นกรรม และ the notes คือชุดที่ระบุได้"
+      ],
+      "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "english",
+      "title": "Verbs และ tenses",
+      "goal": "เลือก tense และผันกริยาตามประธานและบริบทเวลา",
+      "rules": [
+        "Present simple ใช้กับกิจวัตรหรือข้อเท็จจริง Present continuous ใช้กับเหตุการณ์ที่กำลังเกิด Past simple ใช้กับอดีตที่สิ้นสุด",
+        "Present simple he/she/it ใช้ V-s; continuous ใช้ am/is/are + V-ing; past simple ใช้ V2; present perfect ใช้ have/has + V3",
+        "Present perfect เชื่อมอดีตกับปัจจุบัน ไม่ใช้ร่วมกับช่วงอดีตที่ปิดแล้วอย่าง yesterday ในการ ใช้งานปกติ"
+      ],
+      "examples": [
+        "She tests the circuit every Friday. tests ผันตาม she",
+        "We have used this meter since May. เริ่มเดือนพฤษภาคมและยังเกี่ยวข้องถึงตอนนี้"
+      ],
+      "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+      "pages": [
+        9,
+        10
+      ],
+      "refs": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "english",
+      "title": "Modals และ questions",
+      "goal": "ตั้งคำถามและแยกหน้าที่ของคำกริยาช่วย",
+      "rules": [
+        "can ใช้กับความสามารถหรือการขอแบบไม่เป็นทางการ should ให้คำแนะนำ must แสดงข้อบังคับหรือความจำเป็น ตามบริบท",
+        "modal + V รูปเดิม; Do/Does/Did + subject + V รูปเดิม; Wh-word + auxiliary + subject + verb สำหรับคำถามส่วนเติมเต็ม",
+        "ถ้า wh-word เป็นประธาน เช่น Who called? ไม่เติม do ตามโครงคำถามกรรมปกติ"
+      ],
+      "examples": [
+        "Where does the bus stop? ใช้ does ตาม bus และ stop คงรูป",
+        "Who fixed the cable? Who เป็นประธาน จึงใช้ fixed โดยตรง"
+      ],
+      "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+      "pages": [
+        11,
+        12
+      ],
+      "refs": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "english",
+      "title": "Prepositions of time and place",
+      "goal": "เลือกคำบุพบทตามความหมายของเวลาและสถานที่",
+      "rules": [
+        "at ใช้กับเวลาตามนาฬิกาและจุด on ใช้กับวัน วันที่ และพื้นผิว in ใช้กับเดือน ปี หรือพื้นที่ภายใน",
+        "at 8 a.m.; on Monday; in November; since Monday; for three days; between A and B",
+        "by 5 p.m. คืออย่างช้าสุดเวลานั้น until 5 p.m. คือดำเนินต่อถึงเวลานั้น"
+      ],
+      "examples": [
+        "The worksheet is on the desk. เน้นวางบนพื้นผิว",
+        "The room stays open until six. สภาพเปิดดำเนินต่อถึงหกโมง"
+      ],
+      "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+      "pages": [
+        13,
+        14
+      ],
+      "refs": [
+        "B1"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "d11-q01",
+      "number": 1,
+      "subject": "english",
+      "prompt": "There are three ___ in the toolbox.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a screwdriver"
+        },
+        {
+          "id": "b",
+          "text": "screwdrivers"
+        },
+        {
+          "id": "c",
+          "text": "screwdriver's"
+        },
+        {
+          "id": "d",
+          "text": "screwdriver"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 36
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "three ต้องใช้คำนามนับได้พหูพจน์",
+        "check": "แทนด้วย three tools ซึ่งมีรูปพหูพจน์เช่นกัน",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q02",
+      "number": 2,
+      "subject": "english",
+      "prompt": "Please give ___ the blue folder. (คนพูดขอให้ส่งให้ตนเอง)",
+      "options": [
+        {
+          "id": "a",
+          "text": "I"
+        },
+        {
+          "id": "b",
+          "text": "me"
+        },
+        {
+          "id": "c",
+          "text": "mine"
+        },
+        {
+          "id": "d",
+          "text": "my"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 36
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "หลัง give ใช้กรรม me",
+        "check": "เปลี่ยนเป็น Give the blue folder to me. ใช้รูปกรรมเหมือนกัน",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q03",
+      "number": 3,
+      "subject": "english",
+      "prompt": "Nina and I are in Grade 9. ___ study together.",
+      "options": [
+        {
+          "id": "a",
+          "text": "We"
+        },
+        {
+          "id": "b",
+          "text": "Our"
+        },
+        {
+          "id": "c",
+          "text": "They"
+        },
+        {
+          "id": "d",
+          "text": "Us"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 37
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ผู้พูดรวมอยู่ในประธาน จึงใช้ We",
+        "check": "Us เป็นกรรม Our ใช้หน้าคำนาม They ไม่รวมผู้พูด",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q04",
+      "number": 4,
+      "subject": "english",
+      "prompt": "It took ___ hour to finish the task.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "many"
+        },
+        {
+          "id": "d",
+          "text": "some"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 37
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "hour เริ่มด้วยเสียงสระเพราะ h ไม่ออกเสียง",
+        "check": "อ่าน an hour เทียบกับ a house ซึ่งออกเสียง h",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q05",
+      "number": 5,
+      "subject": "english",
+      "prompt": "She wears ___ uniform at school.",
+      "options": [
+        {
+          "id": "a",
+          "text": "a few"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        },
+        {
+          "id": "d",
+          "text": "a"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 38
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "uniform เริ่มด้วยเสียง /j/ ใช้ a",
+        "check": "พิจารณาเสียงต้นเหมือน you ไม่ตัดสินจากตัว u",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q06",
+      "number": 6,
+      "subject": "english",
+      "prompt": "I saw a cat in the hall. ___ cat was sleeping.",
+      "options": [
+        {
+          "id": "a",
+          "text": "An"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "The"
+        },
+        {
+          "id": "d",
+          "text": "Many"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 38
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ครั้งที่สองกล่าวถึงแมวตัวเดิมที่ระบุได้",
+        "check": "แทนด้วย That cat และใจความยังชี้แมวตัวเดิม",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q07",
+      "number": 7,
+      "subject": "english",
+      "prompt": "Which phrase is grammatical?",
+      "options": [
+        {
+          "id": "a",
+          "text": "some information"
+        },
+        {
+          "id": "b",
+          "text": "three informations"
+        },
+        {
+          "id": "c",
+          "text": "an information"
+        },
+        {
+          "id": "d",
+          "text": "many information"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 39
+      },
+      "topic": "Nouns, pronouns และ articles",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "BP",
+        "BA"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "information เป็นคำนามนับไม่ได้ ใช้ some ได้",
+        "check": "ถ้าต้องนับให้ใช้ pieces of information",
+        "caution": "an hour เพราะ h ไม่ออกเสียง แต่ a uniform เพราะเสียงต้น /j/",
+        "review": "DAY 11 บท 1 Nouns, pronouns และ articles"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d11-q08",
+      "number": 8,
+      "subject": "english",
+      "prompt": "My brother ___ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "text": "walk"
+        },
+        {
+          "id": "b",
+          "text": "is walk"
+        },
+        {
+          "id": "c",
+          "text": "walking"
+        },
+        {
+          "id": "d",
+          "text": "walks"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 39
+      },
+      "topic": "Verbs และ tenses",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "every day บอกกิจวัตร brother เป็นเอกพจน์จึงเติม s",
+        "check": "เปลี่ยนประธานเป็น he จะได้ he walks",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q09",
+      "number": 9,
+      "subject": "english",
+      "prompt": "Look! The students ___ the robot now.",
+      "options": [
+        {
+          "id": "a",
+          "text": "tested yesterday"
+        },
+        {
+          "id": "b",
+          "text": "tests"
+        },
+        {
+          "id": "c",
+          "text": "are testing"
+        },
+        {
+          "id": "d",
+          "text": "is testing"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 40
+      },
+      "topic": "Verbs และ tenses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "กำลังเกิดตอนนี้ ใช้ present continuous และ students ใช้ are",
+        "check": "แยก are + testing ตามโครงสร้าง",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q10",
+      "number": 10,
+      "subject": "english",
+      "prompt": "We ___ the switch yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "replaced"
+        },
+        {
+          "id": "b",
+          "text": "are replacing"
+        },
+        {
+          "id": "c",
+          "text": "replace"
+        },
+        {
+          "id": "d",
+          "text": "have replaced"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 40
+      },
+      "topic": "Verbs และ tenses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "yesterday คืออดีตที่สิ้นสุด ใช้ past simple",
+        "check": "ถาม Did you replace it yesterday? ตอบ Y es, we replaced it.",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q11",
+      "number": 11,
+      "subject": "english",
+      "prompt": "He has lived here ___ 2021.",
+      "options": [
+        {
+          "id": "a",
+          "text": "until"
+        },
+        {
+          "id": "b",
+          "text": "for"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        },
+        {
+          "id": "d",
+          "text": "since"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 41
+      },
+      "topic": "Verbs และ tenses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "2021 เป็นจุดเริ่มต้นของช่วงที่ต่อเนื่อง ใช้ since",
+        "check": "ถ้าใช้ for ต้องตามด้วยช่วงเวลา เช่น for five years",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q12",
+      "number": 12,
+      "subject": "english",
+      "prompt": "They ___ the same meter for three years and still use it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "are use"
+        },
+        {
+          "id": "b",
+          "text": "used yesterday"
+        },
+        {
+          "id": "c",
+          "text": "have used"
+        },
+        {
+          "id": "d",
+          "text": "uses"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 41
+      },
+      "topic": "Verbs และ tenses",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ความต่อเนื่องถึงปัจจุบันใช้ have + V3",
+        "check": "still use it ยืนยันว่าช่วงไม่ได้จบแล้ว",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q13",
+      "number": 13,
+      "subject": "english",
+      "prompt": "We didn't ___ the meeting yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "attends"
+        },
+        {
+          "id": "b",
+          "text": "attended"
+        },
+        {
+          "id": "c",
+          "text": "attending"
+        },
+        {
+          "id": "d",
+          "text": "attend"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 42
+      },
+      "topic": "Verbs และ tenses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "didn't รับอดีตแล้ว กริยาหลักเป็นรูปเดิม",
+        "check": "รูปบอกเล่า attended เปลี่ยนเป็น did not attend",
+        "caution": "หลัง did ใช้กริยารูปเดิม และ since ตามด้วยจุดเริ่มต้น ส่วน for ตามด้วยช่วงเวลา",
+        "review": "DAY 11 บท 2 Verbs และ tenses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d11-q14",
+      "number": 14,
+      "subject": "english",
+      "prompt": "You ___ touch this display. The notice says it is forbidden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "might"
+        },
+        {
+          "id": "b",
+          "text": "can"
+        },
+        {
+          "id": "c",
+          "text": "must not"
+        },
+        {
+          "id": "d",
+          "text": "do not have to"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 42
+      },
+      "topic": "Modals และ questions",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "forbidden ตรงกับ must not ที่เป็นข้อห้าม",
+        "check": "do not have to หมายถึงไม่มีความจำเป็น และไม่สื่อข้อห้าม",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q15",
+      "number": 15,
+      "subject": "english",
+      "prompt": "I can ___ the instructions in English.",
+      "options": [
+        {
+          "id": "a",
+          "text": "read"
+        },
+        {
+          "id": "b",
+          "text": "to read"
+        },
+        {
+          "id": "c",
+          "text": "reading"
+        },
+        {
+          "id": "d",
+          "text": "reads"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 43
+      },
+      "topic": "Modals และ questions",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "หลัง modal can ใช้กริยารูปเดิม",
+        "check": "ประโยคปฏิเสธ I cannot read ใช้ read เหมือนกัน",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q16",
+      "number": 16,
+      "subject": "english",
+      "prompt": "Which sentence gives advice about tired eyes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Can you take my bag?"
+        },
+        {
+          "id": "b",
+          "text": "You should take a short break."
+        },
+        {
+          "id": "c",
+          "text": "You must not take a break."
+        },
+        {
+          "id": "d",
+          "text": "I took a break yesterday."
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 43
+      },
+      "topic": "Modals และ questions",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "should สื่อคำแนะนำ และการพักสัมพันธ์กับสถานการณ์",
+        "check": "ประโยคอื่นให้ข้อห้าม ขอให้ทำสิ่งอื่น หรือบอกเหตุการณ์อดีต",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q17",
+      "number": 17,
+      "subject": "english",
+      "prompt": "Where ___ the bus stop every morning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "has"
+        },
+        {
+          "id": "b",
+          "text": "does"
+        },
+        {
+          "id": "c",
+          "text": "do"
+        },
+        {
+          "id": "d",
+          "text": "did"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 44
+      },
+      "topic": "Modals และ questions",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ประธาน the bus เอกพจน์ กิจวัตรปัจจุบันใช้ does",
+        "check": "ประโยคบอกเล่า The bus stops here. เมื่อถาม s ย้ายไปอยู่ใน does",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q18",
+      "number": 18,
+      "subject": "english",
+      "prompt": "Which asks who performed the action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Who did you see?"
+        },
+        {
+          "id": "b",
+          "text": "When did they arrive?"
+        },
+        {
+          "id": "c",
+          "text": "Who opened the door?"
+        },
+        {
+          "id": "d",
+          "text": "Where is the door?"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 44
+      },
+      "topic": "Modals และ questions",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "Who เป็นประธานผู้เปิดประตู จึงถามผู้กระทำ",
+        "check": "เติมคำตอบ May ในตำแหน่ง Who ได้ May opened the door.",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q19",
+      "number": 19,
+      "subject": "english",
+      "prompt": "___ you finish the worksheet last night?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Have"
+        },
+        {
+          "id": "b",
+          "text": "Does"
+        },
+        {
+          "id": "c",
+          "text": "Do"
+        },
+        {
+          "id": "d",
+          "text": "Did"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 45
+      },
+      "topic": "Modals และ questions",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "last night คือเวลาที่จบแล้ว ใช้ Did + V",
+        "check": "คำตอบแบบย่อ Y es, I did. สอดคล้อง",
+        "caution": "must not คือห้าม ส่วน do not have to คือไม่จำเป็น",
+        "review": "DAY 11 บท 3 Modals และ questions"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d11-q20",
+      "number": 20,
+      "subject": "english",
+      "prompt": "The lesson starts ___ 8:30 a.m.",
+      "options": [
+        {
+          "id": "a",
+          "text": "at"
+        },
+        {
+          "id": "b",
+          "text": "by the end of"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        },
+        {
+          "id": "d",
+          "text": "in"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 45
+      },
+      "topic": "Prepositions of time and place",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ใช้ at กับเวลาเริ่มตามนาฬิกา",
+        "check": "on ใช้กับวัน ส่วน in ใช้กับช่วงใหญ่ เช่น in the morning",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d11-q21",
+      "number": 21,
+      "subject": "english",
+      "prompt": "The exam is ___ Saturday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        },
+        {
+          "id": "d",
+          "text": "between"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 46
+      },
+      "topic": "Prepositions of time and place",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ชื่อวันใช้ on",
+        "check": "on 28 November ใช้ on กับวันที่ด้วย",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d11-q22",
+      "number": 22,
+      "subject": "english",
+      "prompt": "The workshop opens ___ November.",
+      "options": [
+        {
+          "id": "a",
+          "text": "at"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "to"
+        },
+        {
+          "id": "d",
+          "text": "on"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 46
+      },
+      "topic": "Prepositions of time and place",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "เดือนใช้ in เมื่อไม่ระบุวัน",
+        "check": "ถ้าระบุวันเป็น on 12 November",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d11-q23",
+      "number": 23,
+      "subject": "english",
+      "prompt": "The ruler is lying flat ___ the surface of the table.",
+      "options": [
+        {
+          "id": "a",
+          "text": "underneath"
+        },
+        {
+          "id": "b",
+          "text": "between"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        },
+        {
+          "id": "d",
+          "text": "in"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 47
+      },
+      "topic": "Prepositions of time and place",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "วลี lying flat on the surface สื่อการวางบนพื้นผิว",
+        "check": "in the table จะสื่ออยู่ภายใน ไม่ตรง surface",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d11-q24",
+      "number": 24,
+      "subject": "english",
+      "prompt": "Submit the form ___ 5 p.m. at the latest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for"
+        },
+        {
+          "id": "b",
+          "text": "until"
+        },
+        {
+          "id": "c",
+          "text": "since"
+        },
+        {
+          "id": "d",
+          "text": "by"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 47
+      },
+      "topic": "Prepositions of time and place",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "by กำหนดเส้นตายอย่างช้าที่สุด",
+        "check": "until ใช้กับการกระทำต่อเนื่อง ไม่เข้ากับการส่งครั้งเดียวในบริบท",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d11-q25",
+      "number": 25,
+      "subject": "english",
+      "prompt": "The room stays open ___ 6 p.m., then it closes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "between"
+        },
+        {
+          "id": "b",
+          "text": "until"
+        },
+        {
+          "id": "c",
+          "text": "since"
+        },
+        {
+          "id": "d",
+          "text": "for"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 48
+      },
+      "topic": "Prepositions of time and place",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "open เป็นสภาวะต่อเนื่องไปถึง 6 p.m. จึงใช้ until",
+        "check": "then it closes กำหนดจุดสิ้นสุดของช่วงเปิด",
+        "caution": "จำวลีที่ใช้ร่วมกัน เช่น at night และ on Monday morning",
+        "review": "DAY 11 บท 4 Prepositions of time and place"
+      },
+      "chapter": 4
+    }
+  ],
+  "sources": {
+    "B1": {
+      "title": "British Council LearnEnglish A1–A2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    "B2": {
+      "title": "British Council LearnEnglish B1–B2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    "BA": {
+      "title": "British Council LearnEnglish Articles: a, an, the",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the"
+    },
+    "BP": {
+      "title": "British Council LearnEnglish Personal pronouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/personal-pronouns"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    }
+  },
+  "schedule": [
+    "20.00–20.50 Nouns, pronouns และ articles / Verbs และ tenses",
+    "20.50–21.00 พัก",
+    "21.00–21.50 Modals และ questions / Prepositions of time and place",
+    "21.50–22.00 พักและเตรียมกระดาษคำตอบ",
+    "22.00–22.40 ทำแบบทดสอบ 25 ข้อ",
+    "22.40–23.00 ตรวจเฉลยและบันทึกข้อผิด"
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "math",
+      "title": "จำแนกสาเหตุและแก้ทีละจุด",
+      "goal": "ตรวจวิธีคิดและเลือกแบบฝึกซ่อมจุดอ่อน",
+      "rules": [
+        "เทียบเฉลยกับวิธีทำทีละบรรทัด จุดผิดแรกเป็นข้อมูลสำหรับเลือกวิธีแก้ บันทึกสาเหตุ เช่น อ่านผิด เลือกสูตรผิด ผิด หน่วย ผิดเครื่องหมาย หรือจัดเวลา",
+        "บันทึกข้อ → จุดที่ผิดครั้งแรก → กฎที่ถูก → วิธีตรวจ → วันลองใหม่",
+        "ปิดเฉลยก่อนทำซ้ำ หากถูกด้วยการจำตัวเลือกให้เปลี่ยนโจทย์เป็นคำอธิบายหรือคำนวณย้อนกลับ"
+      ],
+      "examples": [
+        "จาก 2x=−6 เขียน x=3 ผิดที่เครื่องหมาย ตรวจแทนกลับ 2(−3)=−6",
+        "เขียน 250 mA เป็น 250 A ผิดที่หน่วย แก้เป็น 0.250 A แล้วประเมินขนาดอีกครั้ง"
+      ],
+      "caution": "คะแนนรวมสูงยังอาจซ่อนจุดอ่อนเฉพาะเรื่อง เลือกซ่อมจากความผิดที่เกิดซ้ำ",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "A1",
+        "A2",
+        "F2",
+        "F20",
+        "B1"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "d16-q01",
+      "number": 1,
+      "subject": "math",
+      "prompt": "เพื่อนเขียน −4²=16 ค่าที่ถูกของนิพจน์นี้เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "−16"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "−8"
+        }
+      ],
+      "source": {
+        "study": 11,
+        "answer": 31
+      },
+      "topic": "ตรวจเลขยกกำลัง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ยกกำลัง 4 ก่อน แล้วใส่เครื่องหมายลบ",
+        "check": "ถ้าต้องการ +16 ต้องเขียน (−4)² ตรวจเชิงตัวเลขได้ −16",
+        "caution": "",
+        "review": "ตรวจเลขยกกำลัง [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 1,
+      "reviewTitle": "เลขยกกำลัง"
+    },
+    {
+      "id": "d16-q02",
+      "number": 2,
+      "subject": "math",
+      "prompt": "จำนวนเต็มมากที่สุดที่ทำให้ −2x≥8 คือเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "−5"
+        },
+        {
+          "id": "d",
+          "text": "−4"
+        }
+      ],
+      "source": {
+        "study": 11,
+        "answer": 31
+      },
+      "topic": "ตรวจอสมการ",
+      "level": "ประยุกต์",
+      "refs": [
+        "A2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "หารด้วย −2 แล้วกลับเครื่องหมายได้ x≤−4",
+        "check": "แทน −4 ได้ 8 พอดี ส่วน −3 ได้ 6 จึงไม่ผ่าน ตรวจเชิงตัวเลขได้ −4",
+        "caution": "",
+        "review": "ตรวจอสมการ [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 4,
+      "reviewTitle": "อสมการและเส้นจำนวน"
+    },
+    {
+      "id": "d16-q03",
+      "number": 3,
+      "subject": "math",
+      "prompt": "นักเรียนเลือก 8 เป็นมัธยฐานจากรายการ 3,12,8,4 เพราะอยู่กลางรายการ หลังเรียงแล้วมัธยฐาน คือเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "6.75"
+        }
+      ],
+      "source": {
+        "study": 12,
+        "answer": 32
+      },
+      "topic": "ตรวจมัธยฐาน",
+      "level": "วิเคราะห์",
+      "refs": [
+        "S8"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "เรียงเป็น 3,4,8,12 ค่ากลางสองตัวต้องเฉลี่ย",
+        "check": "6 อยู่ห่าง 4 และ 8 เท่ากัน ตรวจเชิงตัวเลขได้ 6",
+        "caution": "",
+        "review": "ตรวจมัธยฐาน [S8]"
+      },
+      "chapter": 1,
+      "reviewDay": "07",
+      "reviewChapter": 1,
+      "reviewTitle": "สถิติและการอ่านข้อมูล"
+    },
+    {
+      "id": "d16-q04",
+      "number": 4,
+      "subject": "math",
+      "prompt": "แผ่นขนาด 0.2 m × 0.4 m มีพื้นที่กี่ cm²?",
+      "options": [
+        {
+          "id": "a",
+          "text": "800 cm²"
+        },
+        {
+          "id": "b",
+          "text": "8000 cm²"
+        },
+        {
+          "id": "c",
+          "text": "80 cm²"
+        },
+        {
+          "id": "d",
+          "text": "8 cm²"
+        }
+      ],
+      "source": {
+        "study": 12,
+        "answer": 32
+      },
+      "topic": "ตรวจหน่วยพื้นที่",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "แปลงด้านเป็น 20 และ 40 cm ก่อนคูณ",
+        "check": "คูณหน่วย m² เป็น cm² ด้วย 10,000 ตรวจเชิงตัวเลขได้ 800 cm²",
+        "caution": "",
+        "review": "ตรวจหน่วยพื้นที่ [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 1,
+      "reviewTitle": "พื้นที่และความยาวรอบรูป"
+    },
+    {
+      "id": "d16-q05",
+      "number": 5,
+      "subject": "math",
+      "prompt": "ในสมการ 5x−7=2x+8 นักเรียนได้ x=−5 ค่าที่ถูกเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "−5"
+        }
+      ],
+      "source": {
+        "study": 13,
+        "answer": 33
+      },
+      "topic": "ตรวจคำตอบสมการ",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ย้าย x ไปซ้ายและค่าคงตัวไปขวาได้ 3x=15",
+        "check": "แทน x=5 ได้ 18 ทั้งสองข้าง ตรวจเชิงตัวเลขได้ 5",
+        "caution": "",
+        "review": "ตรวจคำตอบสมการ [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 1,
+      "reviewTitle": "สมการเชิงเส้นและโจทย์ปัญหา"
+    },
+    {
+      "id": "d16-q06",
+      "number": 6,
+      "subject": "science",
+      "prompt": "วัตถุมี v=−6 m/s คงที่ 4 s คนหนึ่งตอบว่าระยะทาง −24 m ระยะทางที่ถูกเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0 m"
+        },
+        {
+          "id": "b",
+          "text": "−6 m"
+        },
+        {
+          "id": "c",
+          "text": "24 m"
+        },
+        {
+          "id": "d",
+          "text": "−24 m"
+        }
+      ],
+      "source": {
+        "study": 14,
+        "answer": 34
+      },
+      "topic": "ตรวจกราฟความเร็ว",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ระยะทางใช้ขนาด ส่วน −24 m เป็นการกระจัด",
+        "check": "แต่ละวินาทีเดินทาง 6 m สี่วินาทีจึง 24 m ตรวจเชิงตัวเลขได้ 24 m",
+        "caution": "",
+        "review": "ตรวจกราฟความเร็ว [F2]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 9,
+      "reviewTitle": "อ่านกราฟการเคลื่อนที่"
+    },
+    {
+      "id": "d16-q07",
+      "number": 7,
+      "subject": "science",
+      "prompt": "ผลักกล่องขวา 22 N และซ้าย 9 N นักเรียนบวกได้ 31 N ถ้าขวาเป็นบวก แรงสุทธิคือเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "31 N"
+        },
+        {
+          "id": "b",
+          "text": "−31 N"
+        },
+        {
+          "id": "c",
+          "text": "−13 N"
+        },
+        {
+          "id": "d",
+          "text": "13 N"
+        }
+      ],
+      "source": {
+        "study": 14,
+        "answer": 34
+      },
+      "topic": "ตรวจแรงลัพธ์",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F4"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แรงซ้ายต้องมีเครื่องหมายลบ",
+        "check": "แรง 9 N จากขวาหักกับแรง 9 N ซ้าย เหลือ 13 N ตรวจเชิงตัวเลขได้ 13 N",
+        "caution": "",
+        "review": "ตรวจแรงลัพธ์ [F4]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 5,
+      "reviewTitle": "แรงและแผนภาพแรง"
+    },
+    {
+      "id": "d16-q08",
+      "number": 8,
+      "subject": "science",
+      "prompt": "ใช้น้ำ 250 g, c=4200 J/(kg·°C) เพิ่มอุณหภูมิ 8°C ต้องให้พลังงานเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8400000 J"
+        },
+        {
+          "id": "b",
+          "text": "33600 J"
+        },
+        {
+          "id": "c",
+          "text": "1050 J"
+        },
+        {
+          "id": "d",
+          "text": "8400 J"
+        }
+      ],
+      "source": {
+        "study": 15,
+        "answer": 35
+      },
+      "topic": "ตรวจแปลงมวล",
+      "level": "ประยุกต์",
+      "refs": [
+        "F14"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แปลง 250 g=0.25 kg ก่อนใช้ Q=mcΔT",
+        "check": "น้ำหนึ่งในสี่กิโลกรัมที่เพิ่ม 8°C ใช้พลังงานเท่ากับน้ำ 1 kg เพิ่ม 2°C ตรวจเชิงตัวเลขได้ 8400 J",
+        "caution": "",
+        "review": "ตรวจแปลงมวล [F14]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 5,
+      "reviewTitle": "แรงและแผนภาพแรง"
+    },
+    {
+      "id": "d16-q09",
+      "number": 9,
+      "subject": "science",
+      "prompt": "เสียงสะท้อนกลับที่เดิมใน 0.20 s ด้วยอัตราเร็ว 350 m/s นักเรียนรายงานระยะถึงผนัง 70 m ค่าที่ ถูกเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "17.5 m"
+        },
+        {
+          "id": "b",
+          "text": "35 m"
+        },
+        {
+          "id": "c",
+          "text": "140 m"
+        },
+        {
+          "id": "d",
+          "text": "70 m"
+        }
+      ],
+      "source": {
+        "study": 15,
+        "answer": 35
+      },
+      "topic": "ตรวจเวลาเสียงสะท้อน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F17"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "70 m เป็นระยะไปกลับ จึงหาร 2",
+        "check": "ใช้เวลาเดินทางไปขาเดียว 0.10 s ตรวจเชิงตัวเลขได้ 35 m",
+        "caution": "",
+        "review": "ตรวจเวลาเสียงสะท้อน [F17]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 6,
+      "reviewTitle": "เสียงและเสียงสะท้อน"
+    },
+    {
+      "id": "d16-q10",
+      "number": 10,
+      "subject": "science",
+      "prompt": "ตัวต้านทาน 2 kΩ คร่อม 10 V นักเรียนคำนวณ 5 แล้วเขียนหน่วย A ค่ากระแสในหน่วย A ที่ถูกคือ เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.05 A"
+        },
+        {
+          "id": "b",
+          "text": "5 A"
+        },
+        {
+          "id": "c",
+          "text": "0.005 A"
+        },
+        {
+          "id": "d",
+          "text": "0.5 A"
+        }
+      ],
+      "source": {
+        "study": 16,
+        "answer": 36
+      },
+      "topic": "ตรวจกระแสและหน่วย",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F20"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "แปลง kΩ เป็น Ω แล้วใช้ I=V/R",
+        "check": "5 mA×2 kΩ=10 V ดังนั้นเป็น 0.005 A ตรวจเชิงตัวเลขได้ 0.005 A",
+        "caution": "",
+        "review": "ตรวจกระแสและหน่วย [F20]"
+      },
+      "chapter": 1,
+      "reviewDay": "08",
+      "reviewChapter": 1,
+      "reviewTitle": "กระแส แรงดัน และกฎของโอห์ม"
+    },
+    {
+      "id": "d16-q11",
+      "number": 11,
+      "subject": "trade",
+      "prompt": "นักเรียนต่อแอมมิเตอร์ขนานโหลดเพื่อวัดกระแสของโหลด ควรแก้อย่างไรในวงจร DC แรงดันต่ำ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ต่อโพรบทั้งคู่ที่ขั้วเดียว"
+        },
+        {
+          "id": "b",
+          "text": "ต่อแอมมิเตอร์คร่อมแหล่งจ่าย"
+        },
+        {
+          "id": "c",
+          "text": "เปลี่ยนเป็น Ω ขณะจ่ายไฟ"
+        },
+        {
+          "id": "d",
+          "text": "แทรกแอมมิเตอร์อนุกรมกับโหลด"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 37
+      },
+      "topic": "ตรวจการต่อมิเตอร์",
+      "level": "พื้นฐาน",
+      "refs": [
+        "E1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "กระแสโหลดต้องไหลผ่านมิเตอร์ จึงต้องต่ออนุกรม",
+        "check": "ถ้าต่อขนาน แอมมิเตอร์ความต้านทานต่ำอาจเปลี่ยนวงจรและกระแส",
+        "caution": "",
+        "review": "ตรวจการต่อมิเตอร์ [E1]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 4,
+      "reviewTitle": "มัลติมิเตอร์และวิเคราะห์วงจรพื้นฐาน"
+    },
+    {
+      "id": "d16-q12",
+      "number": 12,
+      "subject": "trade",
+      "prompt": "คำนวณ R ของ LED 5 V, Vf=2 V, I=10 mA แล้วได้ 500 Ω เพราะใช้ 5/I ค่าที่ถูกในแบบ จำลองคือข้อใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "500 Ω"
+        },
+        {
+          "id": "b",
+          "text": "300 Ω"
+        },
+        {
+          "id": "c",
+          "text": "200 Ω"
+        },
+        {
+          "id": "d",
+          "text": "30 Ω"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 37
+      },
+      "topic": "ตรวจค่า LED",
+      "level": "วิเคราะห์",
+      "refs": [
+        "E2",
+        "F20"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "R รับแรงดัน 3 V เพราะ LED ตกคร่อม 2 V",
+        "check": "0.010×300+2=5 V",
+        "caution": "",
+        "review": "ตรวจค่า LED [E2] [F20]"
+      },
+      "chapter": 1,
+      "reviewDay": "09",
+      "reviewChapter": 2,
+      "reviewTitle": "ไดโอด LED และการจำกัดกระแส"
+    },
+    {
+      "id": "d16-q13",
+      "number": 13,
+      "subject": "trade",
+      "prompt": "เวอร์เนียร์ขีดตรงที่ 4 ค่าละเอียด 0.02 mm นักเรียนบวก 0.04 mm กับสเกลหลัก ควรบวกเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.04 mm"
+        },
+        {
+          "id": "b",
+          "text": "0.40 mm"
+        },
+        {
+          "id": "c",
+          "text": "0.08 mm"
+        },
+        {
+          "id": "d",
+          "text": "0.02 mm"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 38
+      },
+      "topic": "ตรวจความละเอียด",
+      "level": "ประยุกต์",
+      "refs": [
+        "M1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "คูณลำดับขีด 4 ด้วยค่าละเอียด 0.02",
+        "check": "สี่ช่วงย่อยรวม 8 ส่วนร้อย mm",
+        "caution": "",
+        "review": "ตรวจความละเอียด [M1]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 2,
+      "reviewTitle": "เครื่องมือวัดและการอ่านสเกล"
+    },
+    {
+      "id": "d16-q14",
+      "number": 14,
+      "subject": "trade",
+      "prompt": "เฟืองขับ 12 ฟันที่ 100 rpm ขับเฟืองภายนอก 24 ฟันโดยตรง เพื่อนบอกรอบตาม 200 rpm รอบ จริงเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 rpm"
+        },
+        {
+          "id": "b",
+          "text": "100 rpm"
+        },
+        {
+          "id": "c",
+          "text": "25 rpm"
+        },
+        {
+          "id": "d",
+          "text": "200 rpm"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 38
+      },
+      "topic": "ตรวจเฟือง",
+      "level": "ประยุกต์",
+      "refs": [
+        "F9M"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ใช้รอบขับ×ฟันขับ/ฟันตาม = 100×12/24",
+        "check": "100×12 และ 50×24 เท่ากันที่ 1200 ฟันต่อนาที",
+        "caution": "",
+        "review": "ตรวจเฟือง [F9M]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 1,
+      "reviewTitle": "เครื่องกลอย่างง่ายและการส่งกำลัง"
+    },
+    {
+      "id": "d16-q15",
+      "number": 15,
+      "subject": "trade",
+      "prompt": "แบบ 1:40 แสดงระยะ 50 mm นักเรียนตอบ 20 m ค่าที่ถูกเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 m"
+        },
+        {
+          "id": "b",
+          "text": "200 m"
+        },
+        {
+          "id": "c",
+          "text": "20 m"
+        },
+        {
+          "id": "d",
+          "text": "0.2 m"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 39
+      },
+      "topic": "ตรวจมาตราส่วน",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "50×40=2000 mm หาร 1000 เป็น 2 m",
+        "check": "5 cm ในแบบแทน 200 cm จริง",
+        "caution": "",
+        "review": "ตรวจมาตราส่วน [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "10",
+      "reviewChapter": 3,
+      "reviewTitle": "พื้นฐานโยธา โครงสร้าง และมาตราส่วน"
+    },
+    {
+      "id": "d16-q16",
+      "number": 16,
+      "subject": "english",
+      "prompt": "แก้ “She didn't went to the lab.” เป็นข้อใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "She didn't goes to the lab."
+        },
+        {
+          "id": "b",
+          "text": "She didn't going to the lab."
+        },
+        {
+          "id": "c",
+          "text": "She don't went to the lab."
+        },
+        {
+          "id": "d",
+          "text": "She didn't go to the lab."
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 40
+      },
+      "topic": "ตรวจ Past simple",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "didn't รับการผันอดีตแล้ว กริยาหลักใช้ go",
+        "check": "บอกเล่า She went แต่ปฏิเสธ She did not go",
+        "caution": "",
+        "review": "ตรวจ Past simple [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "11",
+      "reviewChapter": 2,
+      "reviewTitle": "Verbs และ tenses"
+    },
+    {
+      "id": "d16-q17",
+      "number": 17,
+      "subject": "english",
+      "prompt": "แก้ “It took a hour.” เป็นข้อใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It took an hours."
+        },
+        {
+          "id": "b",
+          "text": "It took an hour."
+        },
+        {
+          "id": "c",
+          "text": "It took many hour."
+        },
+        {
+          "id": "d",
+          "text": "It took a hours."
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 40
+      },
+      "topic": "ตรวจ Article",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BA"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "hour ขึ้นต้นเสียงสระเพราะ h ไม่ออกเสียง ใช้ an",
+        "check": "ออกเสียง an hour เทียบกับ a house",
+        "caution": "",
+        "review": "ตรวจ Article [BA]"
+      },
+      "chapter": 1,
+      "reviewDay": "11",
+      "reviewChapter": 1,
+      "reviewTitle": "Nouns, pronouns และ articles"
+    },
+    {
+      "id": "d16-q18",
+      "number": 18,
+      "subject": "english",
+      "prompt": "แก้ “The cables was replaced yesterday.” เป็นข้อใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cables were replaced yesterday."
+        },
+        {
+          "id": "b",
+          "text": "The cables has replaced yesterday."
+        },
+        {
+          "id": "c",
+          "text": "The cables was replace yesterday."
+        },
+        {
+          "id": "d",
+          "text": "The cables are replacing yesterday."
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 41
+      },
+      "topic": "ตรวจ Passive",
+      "level": "ประยุกต์",
+      "refs": [
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ประธานพหูพจน์และอดีตใช้ were + V3",
+        "check": "รูป active คือ Someone replaced the cables yesterday.",
+        "caution": "",
+        "review": "ตรวจ Passive [B2]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 2,
+      "reviewTitle": "Conjunctions, passive และ relative clauses"
+    },
+    {
+      "id": "d16-q19",
+      "number": 19,
+      "subject": "english",
+      "prompt": "แก้ “This wire is more longer than that one.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "This wire is as longer than that one."
+        },
+        {
+          "id": "b",
+          "text": "This wire is longest than that one."
+        },
+        {
+          "id": "c",
+          "text": "This wire is longer than that one."
+        },
+        {
+          "id": "d",
+          "text": "This wire is more long than that one."
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 41
+      },
+      "topic": "ตรวจ Comparatives",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "longer เป็นขั้นกว่าอยู่แล้ว ตัด more",
+        "check": "รูป long → longer → longest",
+        "caution": "",
+        "review": "ตรวจ Comparatives [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 1,
+      "reviewTitle": "Adjectives, adverbs และ comparisons"
+    },
+    {
+      "id": "d16-q20",
+      "number": 20,
+      "subject": "english",
+      "prompt": "ต้องส่งใบงานอย่างช้าสุด 4 p.m. ข้อใดสื่อถูก?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Submit it by 4 p.m."
+        },
+        {
+          "id": "b",
+          "text": "Keep it until 4 p.m."
+        },
+        {
+          "id": "c",
+          "text": "Do not submit it before 4 p.m."
+        },
+        {
+          "id": "d",
+          "text": "Submit it since 4 p.m."
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 42
+      },
+      "topic": "ตรวจเส้นตาย",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "by ระบุเวลาส่งอย่างช้าที่สุด",
+        "check": "until หมายถึงทำสิ่งหนึ่งต่อเนื่องถึงเวลา และ before ในตัวลวงเป็นข้อห้ามส่งก่อนเวลา",
+        "caution": "",
+        "review": "ตรวจเส้นตาย [B1]"
+      },
+      "chapter": 1,
+      "reviewDay": "12",
+      "reviewChapter": 3,
+      "reviewTitle": "Vocabulary และ reading"
+    }
+  ],
+  "sources": {
+    "A1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 1 เลขยกกำลัง กรณฑ์ พหุนามและการแยก ตัวประกอบ",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-introduction-to-prerequisites"
+    },
+    "A2": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 2 สมการ อสมการ และพิกัด",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-introduction-to-equations-and-inequalities"
+    },
+    "B1": {
+      "title": "British Council LearnEnglish A1–A2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    "B2": {
+      "title": "British Council LearnEnglish B1–B2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    "BA": {
+      "title": "British Council LearnEnglish Articles: a, an, the",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the"
+    },
+    "E1": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume I – DC วงจรและการวัดไฟฟ้า",
+      "url": "https://www.allaboutcircuits.com/textbook/direct-current/"
+    },
+    "E2": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume III – Semiconductors ไดโอดและ ทรานซิสเตอร์",
+      "url": "https://www.allaboutcircuits.com/textbook/semiconductors/"
+    },
+    "F14": {
+      "title": "OpenStax College Physics 2e (2022) บท 14 ความร้อนและการถ่ายเทความร้อน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-introduction-to-heat-and-heat-transfer-methods"
+    },
+    "F17": {
+      "title": "OpenStax College Physics 2e (2022) §17.2 อัตราเร็ว ความถี่ และความยาวคลื่นเสียง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+    },
+    "F2": {
+      "title": "OpenStax College Physics 2e (2022) บท 2 การเคลื่อนที่แนวตรง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics"
+    },
+    "F20": {
+      "title": "OpenStax College Physics 2e (2022) §20.2 กฎของโอห์ม",
+      "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits"
+    },
+    "F4": {
+      "title": "OpenStax College Physics 2e (2022) บท 4 แรงและกฎของนิวตัน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-introduction-to-dynamics-newtons-laws-of-motion"
+    },
+    "F9M": {
+      "title": "OpenStax College Physics 2e (2022) §9.5 เครื่องกลอย่างง่าย",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines"
+    },
+    "G1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 10 เรขาคณิต",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-introduction"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    },
+    "M1": {
+      "title": "Rutgers University Instruction Manual: 0.1mm Vernier Caliper หลักสเกลหลักและสเกลเวอร์เนียร์",
+      "url": "https://www.des.rutgers.edu/physics/vc/"
+    },
+    "S8": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 8 สถิติและการแสดงข้อมูล",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-introduction"
+    }
+  },
+  "schedule": [
+    "20.00–20.50 จำแนกสาเหตุและแก้ทีละจุด",
+    "20.50–21.00 พัก",
+    "21.00–21.50 คัดข้อผิดเดิมแล้วลองแก้จากกระดาษเปล่า",
+    "21.50–22.00 พักและเตรียมกระดาษคำตอบ",
+    "22.00–22.40 ทำแบบทดสอบ 20 ข้อ",
+    "22.40–23.00 ตรวจเฉลยและบันทึกข้อผิด"
+  ]
+}

@@ -1,0 +1,1407 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "english",
+      "title": "Adjectives, adverbs และ comparisons",
+      "goal": "แยกคำขยายและเลือกการเปรียบเทียบ",
+      "rules": [
+        "adjective ขยายคำนามหรืออยู่หลังกริยาเชื่อมอย่าง look/seem adverb ขยายกริยา คุณศัพท์ หรือกริยา วิเศษณ์",
+        "คำสั้นมักใช้ -er/-est คำยาวมักใช้ more/most รูปพิเศษ good → better → best และ as … as ใช้รูป เดิม",
+        "friendly เป็น adjective ส่วน fast เป็นได้ทั้ง adjective และ adverb"
+      ],
+      "examples": [
+        "The device looks safe. safe ขยายสภาพของ device ผ่าน looks",
+        "This wire is thinner than that one. ใช้ thinner + than"
+      ],
+      "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "english",
+      "title": "Conjunctions, passive และ relative clauses",
+      "goal": "เชื่อมประโยคตามเหตุผล ใช้กรรมวาจก และขยายคำนาม",
+      "rules": [
+        "because ให้เหตุผล so ให้ผล although ให้ความขัดแย้ง passive ให้ผู้รับการกระทำเป็นประธาน relative clause เพิ่มข้อมูลของคำนาม",
+        "passive = be ตาม tense + V3; who ใช้กับคน, which ใช้กับสิ่งของ, that ใช้ได้ใน defining clauses ตามโครงสร้าง",
+        "non-defining clause คั่นด้วยจุลภาคและไม่ใช้ that; ถ้าคำเชื่อมสัมพัทธ์เป็นกรรมใน defining clause มักละได้"
+      ],
+      "examples": [
+        "The lights were checked yesterday. ใช้ were + checked สำหรับ past passive",
+        "The teacher who showed us the tool is here. who เป็นประธานของ showed จึงละไม่ได้"
+      ],
+      "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+      "pages": [
+        9,
+        10
+      ],
+      "refs": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "english",
+      "title": "Vocabulary และ reading",
+      "goal": "ใช้คำรอบข้างหาใจความ รายละเอียด และความหมายคำ",
+      "rules": [
+        "อ่านชื่อเรื่องเพื่อกำหนดเรื่องหลัก จากนั้นสแกนเลข วัน เวลา หรือคำสำคัญ แล้วกลับไปอ่านประโยครอบคำตอบ",
+        "main idea ครอบคลุมใจความทั้งข้อความ; detail ต้องชี้ข้อความรองรับได้; inference อาศัยสิ่งที่ข้อความ บอก",
+        "เรียนคำพร้อมคำที่มักใช้คู่กัน เช่น follow instructions, wear goggles, turn off the power"
+      ],
+      "examples": [
+        "Bring a pencil; calculators are provided. ต้องนำดินสอ ส่วนเครื่องคิดเลขมีให้",
+        "The room is closed for repairs. repairs เชื่อมกับการแก้สิ่งที่ชำรุด"
+      ],
+      "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+      "pages": [
+        11,
+        12
+      ],
+      "refs": [
+        "BV",
+        "BR"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "english",
+      "title": "Conversation, cloze และ error identification",
+      "goal": "เลือกภาษาตามหน้าที่และแก้ข้อผิดจากหลักฐานในประโยค",
+      "rules": [
+        "บทสนทนาให้ตอบเจตนา เช่น ขอความช่วยเหลือหรือขออนุญาต Cloze ตรวจทั้งไวยากรณ์และความหมาย Error ตรวจทีละตำแหน่ง",
+        "อ่านประโยคก่อนและหลังช่องว่าง แล้วตรวจ subject–verb agreement, tense, article, preposition และ parallel structure",
+        "ถ้ามีคำตอบได้หลายทางในชีวิตจริง ให้ยึดความหมายและข้อกำหนดของคำถาม"
+      ],
+      "examples": [
+        "Could you repeat that? → Of course. เป็นการตอบรับคำขอ",
+        "Each student have a card. แก้ have เป็น has เพราะ each student เป็นเอกพจน์"
+      ],
+      "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+      "pages": [
+        13,
+        14
+      ],
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "d12-q01",
+      "number": 1,
+      "subject": "english",
+      "prompt": "She measured the wire ___ to avoid a mistake.",
+      "options": [
+        {
+          "id": "a",
+          "text": "care"
+        },
+        {
+          "id": "b",
+          "text": "carefully"
+        },
+        {
+          "id": "c",
+          "text": "careful"
+        },
+        {
+          "id": "d",
+          "text": "more careful"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 38
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ต้องใช้ adverb ขยาย measured",
+        "check": "ถาม How did she measure it? ตอบ carefully",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q02",
+      "number": 2,
+      "subject": "english",
+      "prompt": "The new handle feels ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "smoothly"
+        },
+        {
+          "id": "b",
+          "text": "smoothness"
+        },
+        {
+          "id": "c",
+          "text": "smooth"
+        },
+        {
+          "id": "d",
+          "text": "smoothing"
+        }
+      ],
+      "source": {
+        "study": 17,
+        "answer": 38
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "feels เป็น linking verb ตามด้วย adjective บอกสภาพ handle",
+        "check": "ใช้ The handle is smooth. คงความหมายสภาพ",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q03",
+      "number": 3,
+      "subject": "english",
+      "prompt": "This box is ___ than that one.",
+      "options": [
+        {
+          "id": "a",
+          "text": "as heavy"
+        },
+        {
+          "id": "b",
+          "text": "heaviest"
+        },
+        {
+          "id": "c",
+          "text": "heavier"
+        },
+        {
+          "id": "d",
+          "text": "more heavier"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 39
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "เปรียบเทียบสองสิ่งใช้ heavier + than",
+        "check": "เปลี่ยน y เป็น i เติม er ได้ heavier",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q04",
+      "number": 4,
+      "subject": "english",
+      "prompt": "Of the three plans, this is the ___ option.",
+      "options": [
+        {
+          "id": "a",
+          "text": "good"
+        },
+        {
+          "id": "b",
+          "text": "well"
+        },
+        {
+          "id": "c",
+          "text": "better"
+        },
+        {
+          "id": "d",
+          "text": "best"
+        }
+      ],
+      "source": {
+        "study": 18,
+        "answer": 39
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "สามแผนและ the ใช้ขั้นสูงสุด best",
+        "check": "good → better → best",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q05",
+      "number": 5,
+      "subject": "english",
+      "prompt": "The red wire is as ___ as the blue wire.",
+      "options": [
+        {
+          "id": "a",
+          "text": "more long"
+        },
+        {
+          "id": "b",
+          "text": "longest"
+        },
+        {
+          "id": "c",
+          "text": "long"
+        },
+        {
+          "id": "d",
+          "text": "longer"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 40
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "พื้นฐาน",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "as … as ใช้ adjective รูปเดิม",
+        "check": "เท่ากันจึงไม่ใช้ than หรือรูปขั้นกว่า",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q06",
+      "number": 6,
+      "subject": "english",
+      "prompt": "Which sentence uses fast as an adverb?",
+      "options": [
+        {
+          "id": "a",
+          "text": "This fast fan is quiet."
+        },
+        {
+          "id": "b",
+          "text": "The fan spins fast."
+        },
+        {
+          "id": "c",
+          "text": "We bought a fast fan."
+        },
+        {
+          "id": "d",
+          "text": "It is a fast fan."
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 40
+      },
+      "topic": "Adjectives, adverbs และ comparisons",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "fast ขยาย spins ในประโยคแรก",
+        "check": "ประโยคอื่น fast อยู่หน้าคำนาม fan",
+        "caution": "อย่าใช้ more faster และ good กับ well ต้องดูหน้าที่ในประโยค",
+        "review": "DAY 12 บท 1 Adjectives, adverbs และ comparisons"
+      },
+      "chapter": 1
+    },
+    {
+      "id": "d12-q07",
+      "number": 7,
+      "subject": "english",
+      "prompt": "I took an umbrella ___ it was raining. (เลือกคำเชื่อมที่บอกเหตุผล)",
+      "options": [
+        {
+          "id": "a",
+          "text": "because"
+        },
+        {
+          "id": "b",
+          "text": "so"
+        },
+        {
+          "id": "c",
+          "text": "but"
+        },
+        {
+          "id": "d",
+          "text": "although"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 41
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "เหตุผลที่หยิบร่มคือฝนตก ใช้ because",
+        "check": "ถ้าใช้ so ให้สลับเป็น It was raining, so I took an umbrella.",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q08",
+      "number": 8,
+      "subject": "english",
+      "prompt": "The battery was flat, ___ the motor did not start. (เลือกคำเชื่อมที่บอกผล)",
+      "options": [
+        {
+          "id": "a",
+          "text": "so"
+        },
+        {
+          "id": "b",
+          "text": "unless"
+        },
+        {
+          "id": "c",
+          "text": "because"
+        },
+        {
+          "id": "d",
+          "text": "although"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 41
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "แบตหมดเป็นเหตุ มอเตอร์ไม่ติดเป็นผล ใช้ so",
+        "check": "สลับเป็น The motor did not start because the battery was flat.",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q09",
+      "number": 9,
+      "subject": "english",
+      "prompt": "The tools ___ cleaned every Friday by the staff.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "has"
+        },
+        {
+          "id": "d",
+          "text": "was"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 42
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "tools เป็นพหูพจน์ และ every Friday บอกกิจวัตร ใช้ are + cleaned",
+        "check": "รูป active คือ The staff clean the tools every Friday.",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q10",
+      "number": 10,
+      "subject": "english",
+      "prompt": "The window ___ repaired yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "has"
+        },
+        {
+          "id": "c",
+          "text": "was"
+        },
+        {
+          "id": "d",
+          "text": "were"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 42
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "window เอกพจน์กับ yesterday ใช้ was + V3",
+        "check": "active คือ Someone repaired the window yesterday.",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q11",
+      "number": 11,
+      "subject": "english",
+      "prompt": "The student ___ helped me is in Room 3.",
+      "options": [
+        {
+          "id": "a",
+          "text": "whose"
+        },
+        {
+          "id": "b",
+          "text": "which"
+        },
+        {
+          "id": "c",
+          "text": "who"
+        },
+        {
+          "id": "d",
+          "text": "where"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 43
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "ประยุกต์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "อนุประโยคขยายคนและช่องเป็นประธานของ helped ใช้ who",
+        "check": "แยกเป็น The student helped me. จึงต้องแทนประธาน",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q12",
+      "number": 12,
+      "subject": "english",
+      "prompt": "This meter, ___ belongs to our school, is very old.",
+      "options": [
+        {
+          "id": "a",
+          "text": "which"
+        },
+        {
+          "id": "b",
+          "text": "who"
+        },
+        {
+          "id": "c",
+          "text": "where"
+        },
+        {
+          "id": "d",
+          "text": "that"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 43
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "non-defining clause คั่นด้วยจุลภาคและขยายสิ่งของ ใช้ which",
+        "check": "ลบอนุประโยคแล้วยังระบุ This meter ได้",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q13",
+      "number": 13,
+      "subject": "english",
+      "prompt": "Which sentence correctly omits an object relative pronoun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The student won is here."
+        },
+        {
+          "id": "b",
+          "text": "This is the tool broke yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I know the room is near the stairs. (หมาย ถึงฉันรู้จักห้องซึ่งอยู่ใกล้บันได)"
+        },
+        {
+          "id": "d",
+          "text": "This is the tool I used."
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 44
+      },
+      "topic": "Conjunctions, passive และ relative clauses",
+      "level": "วิเคราะห์",
+      "refs": [
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "I used the tool จึงละ that/which ที่เป็นกรรมได้",
+        "check": "ถ้าเป็นประธาน เช่น the tool that broke จะละ that ไม่ได้",
+        "caution": "อย่าผัน tense ที่ V3 ให้ผัน be และอย่าเติมประธานหรือกรรมซ้ำใน relative clause",
+        "review": "DAY 12 บท 2 Conjunctions, passive และ relative clauses"
+      },
+      "chapter": 2
+    },
+    {
+      "id": "d12-q14",
+      "number": 14,
+      "subject": "english",
+      "prompt": "The battery is flat. ในบริบทเครื่องใช้ไม่ทำงาน flat หมายถึงอะไร?",
+      "options": [
+        {
+          "id": "a",
+          "text": "หมดไฟ"
+        },
+        {
+          "id": "b",
+          "text": "กันน้ำ"
+        },
+        {
+          "id": "c",
+          "text": "ไฟแรงขึ้น"
+        },
+        {
+          "id": "d",
+          "text": "แบนราบเท่านั้น"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 44
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "flat battery หมายถึงแบตหมดไฟ",
+        "check": "แทน The battery has no charge แล้วเข้ากับอาการ",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q15",
+      "number": 15,
+      "subject": "english",
+      "prompt": "Please ___ the instructions before starting.",
+      "options": [
+        {
+          "id": "a",
+          "text": "turn"
+        },
+        {
+          "id": "b",
+          "text": "make"
+        },
+        {
+          "id": "c",
+          "text": "read"
+        },
+        {
+          "id": "d",
+          "text": "wear"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 45
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "read the instructions คืออ่านคำแนะนำ",
+        "check": "อีกวลีที่เข้าความหมายคือ follow the instructions แต่ไม่อยู่ในตัวเลือก",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q16",
+      "number": 16,
+      "subject": "english",
+      "prompt": "Safety notice: “Wear goggles in the workshop.” What are goggles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a kind of shoe"
+        },
+        {
+          "id": "b",
+          "text": "protective eyewear"
+        },
+        {
+          "id": "c",
+          "text": "measuring tape"
+        },
+        {
+          "id": "d",
+          "text": "a power switch"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 45
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "goggles คือแว่นครอบตาเพื่อป้องกัน",
+        "check": "คำ wear และ safety ช่วยตัดตัวเลือกเครื่องมือที่ไม่สวมใส่",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q17",
+      "number": 17,
+      "subject": "english",
+      "prompt": "Which is the best heading? “On Friday, the workshop opens at 10. Visitors must sign in. Tools will be provided.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Friday workshop information"
+        },
+        {
+          "id": "b",
+          "text": "How to repair a clock"
+        },
+        {
+          "id": "c",
+          "text": "A list of tools for sale"
+        },
+        {
+          "id": "d",
+          "text": "Why Friday was cancelled"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 46
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "วิเคราะห์",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "เรื่องหลักคือข้อมูลเข้าร่วมเวิร์กช็อปวันศุกร์",
+        "check": "หัวข้อต้องครอบคลุมเวลา การลงชื่อ และสิ่งที่จัดให้",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q18",
+      "number": 18,
+      "subject": "english",
+      "prompt": "“The workshop opens at 10. Visitors must sign in. Tools will be provided.” What must visitors do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bring their own tools"
+        },
+        {
+          "id": "b",
+          "text": "sign in"
+        },
+        {
+          "id": "c",
+          "text": "arrive at 8"
+        },
+        {
+          "id": "d",
+          "text": "repair the door"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 46
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "ประยุกต์",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "must sign in ระบุข้อบังคับโดยตรง",
+        "check": "ข้อความบอกว่ามีเครื่องมือให้ จึงไม่ต้องอนุมานให้เอามาเอง",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q19",
+      "number": 19,
+      "subject": "english",
+      "prompt": "“The lab is closed on Tuesday for repairs. It reopens on Wednesday.” Which statement follows?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repairs are optional for visitors."
+        },
+        {
+          "id": "b",
+          "text": "The lab reopens on Tuesday."
+        },
+        {
+          "id": "c",
+          "text": "The lab is closed all week."
+        },
+        {
+          "id": "d",
+          "text": "Visitors cannot enter on Tuesday."
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 47
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "วิเคราะห์",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "closed on T uesday หมายถึงวันนั้นเข้าไม่ได้",
+        "check": "Wednesday เป็นวันเปิด จึงตัดตัวเลือกปิดตลอดสัปดาห์",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q20",
+      "number": 20,
+      "subject": "english",
+      "prompt": "“Bring a pencil. Calculators are provided.” Which item must participants bring?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a pencil"
+        },
+        {
+          "id": "b",
+          "text": "neither item"
+        },
+        {
+          "id": "c",
+          "text": "a calculator"
+        },
+        {
+          "id": "d",
+          "text": "both items"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 47
+      },
+      "topic": "Vocabulary และ reading",
+      "level": "พื้นฐาน",
+      "refs": [
+        "BV",
+        "BR"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ประโยคคำสั่ง Bring a pencil ตอบตรงข้อความ",
+        "check": "are provided คือมีเครื่องคิดเลขให้",
+        "caution": "ตัวเลือกที่ยืมคำจากเรื่องอาจกลับความหมายหรือเติมเงื่อนไขเกินข้อความ",
+        "review": "DAY 12 บท 3 Vocabulary และ reading"
+      },
+      "chapter": 3
+    },
+    {
+      "id": "d12-q21",
+      "number": 21,
+      "subject": "english",
+      "prompt": "A: Could you show me where Room 4 is? B: ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "I am Room 4."
+        },
+        {
+          "id": "b",
+          "text": "No, it is ten o'clock."
+        },
+        {
+          "id": "c",
+          "text": "Yes, I bought a room."
+        },
+        {
+          "id": "d",
+          "text": "Sure. It is next to the stairs."
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 48
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "A ขอให้บอกสถานที่ คำตอบจึงบอกตำแหน่ง",
+        "check": "next to the stairs ตอบ where โดยตรง",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q22",
+      "number": 22,
+      "subject": "english",
+      "prompt": "A: I'm sorry I broke the clip. B: ___ (ตอบรับคำขอโทษอย่างสุภาพ)",
+      "options": [
+        {
+          "id": "a",
+          "text": "That's all right. Thanks for telling me."
+        },
+        {
+          "id": "b",
+          "text": "You are a clip."
+        },
+        {
+          "id": "c",
+          "text": "Where did you buy lunch?"
+        },
+        {
+          "id": "d",
+          "text": "I don't need directions."
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 48
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "วิเคราะห์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "That's all right เป็นการรับคำขอโทษ",
+        "check": "Thanks for telling me สอดคล้องกับอีกฝ่ายเพิ่งบอก",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q23",
+      "number": 23,
+      "subject": "english",
+      "prompt": "Which is a polite request to borrow a ruler?",
+      "options": [
+        {
+          "id": "a",
+          "text": "May I borrow your ruler, please?"
+        },
+        {
+          "id": "b",
+          "text": "You must borrow my ruler."
+        },
+        {
+          "id": "c",
+          "text": "I borrowed your ruler yesterday."
+        },
+        {
+          "id": "d",
+          "text": "Give it now."
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 49
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "May I ขออนุญาตให้ผู้พูดยืม",
+        "check": "มี please และประธาน I จึงตรงทั้งหน้าที่และมารยาท",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q24",
+      "number": 24,
+      "subject": "english",
+      "prompt": "Cloze: The alarm rang, ___ everyone left the room as instructed.",
+      "options": [
+        {
+          "id": "a",
+          "text": "unless"
+        },
+        {
+          "id": "b",
+          "text": "because"
+        },
+        {
+          "id": "c",
+          "text": "so"
+        },
+        {
+          "id": "d",
+          "text": "or"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 49
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "เสียงเตือนเป็นเหตุ การออกจากห้องเป็นผล ใช้ so",
+        "check": "because จะสลับเหตุผลเป็นเสียงเตือนดังเพราะทุกคนออกจากห้อง",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q25",
+      "number": 25,
+      "subject": "english",
+      "prompt": "Cloze: Ben found an empty box. He put the cables ___ it and closed the lid.",
+      "options": [
+        {
+          "id": "a",
+          "text": "between"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 50
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "สายถูกใส่ภายในกล่องก่อนปิดฝา ใช้ in",
+        "check": "closed the lid สนับสนุนว่าใช้ภาชนะบรรจุ",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q26",
+      "number": 26,
+      "subject": "english",
+      "prompt": "Cloze: We ___ the lab every Friday, but today we are using the classroom instead.",
+      "options": [
+        {
+          "id": "a",
+          "text": "used yesterday"
+        },
+        {
+          "id": "b",
+          "text": "are use"
+        },
+        {
+          "id": "c",
+          "text": "uses"
+        },
+        {
+          "id": "d",
+          "text": "use"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 50
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "every Friday บอกกิจวัตร และ we ใช้ use",
+        "check": "but today แยกกิจวัตรจากเหตุการณ์วันนี้",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q27",
+      "number": 27,
+      "subject": "english",
+      "prompt": "เลือกคำที่ต้องแก้ใน “Each student / have / a card / for the lab.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "a card"
+        },
+        {
+          "id": "b",
+          "text": "Each student"
+        },
+        {
+          "id": "c",
+          "text": "for the lab"
+        },
+        {
+          "id": "d",
+          "text": "have"
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 51
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "each student เป็นประธานเอกพจน์ ต้องใช้ has",
+        "check": "แทนประธานด้วย he จะได้ he has a card",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q28",
+      "number": 28,
+      "subject": "english",
+      "prompt": "เลือกส่วนที่ต้องแก้ใน “The parts / was checked / by the teacher / yesterday.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "The parts"
+        },
+        {
+          "id": "b",
+          "text": "was checked"
+        },
+        {
+          "id": "c",
+          "text": "by the teacher"
+        },
+        {
+          "id": "d",
+          "text": "yesterday"
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 51
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "parts เป็นพหูพจน์ จึงใช้ were checked",
+        "check": "active คือ The teacher checked the parts yesterday.",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q29",
+      "number": 29,
+      "subject": "english",
+      "prompt": "เลือกส่วนที่ต้องแก้ใน “This box / is more lighter / than / the old one.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "the old one"
+        },
+        {
+          "id": "b",
+          "text": "is more lighter"
+        },
+        {
+          "id": "c",
+          "text": "than"
+        },
+        {
+          "id": "d",
+          "text": "This box"
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 52
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "lighter เป็นขั้นกว่าแล้ว ตัด more",
+        "check": "รูปที่ถูก This box is lighter than the old one.",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    },
+    {
+      "id": "d12-q30",
+      "number": 30,
+      "subject": "english",
+      "prompt": "เลือกส่วนที่ต้องแก้ใน “She / can to repair / the lamp / by herself.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "by herself"
+        },
+        {
+          "id": "b",
+          "text": "She"
+        },
+        {
+          "id": "c",
+          "text": "the lamp"
+        },
+        {
+          "id": "d",
+          "text": "can to repair"
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 52
+      },
+      "topic": "Conversation, cloze และ error identification",
+      "level": "ประยุกต์",
+      "refs": [
+        "BS",
+        "B1",
+        "B2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "หลัง can ใช้ repair รูปเดิมโดยไม่เติม to",
+        "check": "เทียบ She can repair it. เป็นประโยคที่สมบูรณ์",
+        "caution": "หลัง would you mind ใช้ V-ing เมื่อขอให้อีกคนทำ ส่วน could you ใช้ V รูปเดิม",
+        "review": "DAY 12 บท 4 Conversation, cloze และ error identification"
+      },
+      "chapter": 4
+    }
+  ],
+  "sources": {
+    "B1": {
+      "title": "British Council LearnEnglish A1–A2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    "B2": {
+      "title": "British Council LearnEnglish B1–B2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    "BR": {
+      "title": "British Council LearnEnglish A2 Reading",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a2"
+    },
+    "BS": {
+      "title": "British Council LearnEnglish A2 Speaking",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/speaking/a2"
+    },
+    "BV": {
+      "title": "British Council LearnEnglish A1–A2 English vocabulary",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/vocabulary/a1-a2"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    }
+  },
+  "schedule": [
+    "20.00–20.50 Adjectives, adverbs และ comparisons / Conjunctions, passive และ",
+    "20.50–21.00 พัก",
+    "21.00–21.50 Vocabulary และ reading / Conversation, cloze และ error identification",
+    "21.50–22.00 พักและเตรียมกระดาษคำตอบ",
+    "22.00–22.40 ทำแบบทดสอบ 30 ข้อ",
+    "22.40–23.00 ตรวจเฉลยและบันทึกข้อผิด"
+  ]
+}

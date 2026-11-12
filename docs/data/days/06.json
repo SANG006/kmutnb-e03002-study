@@ -1,0 +1,1495 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "math",
+      "title": "จำนวน เซต และพีชคณิต",
+      "goal": "เลือกวิธีจากชนิดของข้อมูลและตรวจสมการย้อนกลับ",
+      "rules": [
+        "จำนวนจริงประกอบด้วยจำนวนตรรกยะและอตรรกยะ เศษส่วน ทศนิยม และร้อยละเขียนแทนค่าเดียวกันได้ เซตใช้ ส่วนร่วมแก้การนับซ้ำ",
+        "ร้อยละเปลี่ยนแปลง = (ใหม่−เดิม)/เดิม×100 เมื่อเดิม≠0, n(A∪B)=n(A)+n(B)−n(A∩B)",
+        "ใช้สมการเมื่อหาค่าพอดี ใช้อสมการเมื่อมีเพดานหรือขั้นต่ำ แยกตัวประกอบเมื่อผลคูณเป็นศูนย์"
+      ],
+      "examples": [
+        "80→ลด 25% เหลือ 60 แล้วเพิ่ม 25% ได้ 75",
+        "ชอบ A 19 คน ชอบ B 15 คน ชอบทั้งคู่ 7 คน จึงมีอย่างน้อยหนึ่งอย่าง 27 คน"
+      ],
+      "caution": "ลด 20% แล้วเพิ่ม 20% ใช้คนละฐาน จึงไม่กลับค่าเดิม",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "A1",
+        "A2",
+        "S1",
+        "G1"
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "math",
+      "title": "เรขาคณิตและกราฟ",
+      "goal": "สลับระหว่างรูป สมการ และหน่วยได้",
+      "rules": [
+        "กราฟเส้นตรงบอกอัตราการเปลี่ยนด้วยความชัน รูปคล้ายคงมุมและอัตราส่วนด้าน สามเหลี่ยมมุมฉากเชื่อมด้านด้วย พีทาโกรัสและตรีโกณมิติ",
+        "m=Δy/Δx, a²+b²=c², A รูปคล้ายเปลี่ยนตาม k² และ V ทรงคล้ายตาม k³",
+        "วาดรูปกำกับมุมและแปลงหน่วยก่อนหาพื้นที่ผิวหรือปริมาตร"
+      ],
+      "examples": [
+        "รูปคล้ายขยายด้าน 3 เท่า พื้นที่เพิ่มเป็น 9 เท่า",
+        "กราฟผ่าน (0,7) กับ (4,19) มีความชัน 3 และสมการ y=3x+7"
+      ],
+      "caution": "เลือกความสูงตั้งฉากในการหาพื้นที่และปริมาตร",
+      "pages": [
+        9,
+        10
+      ],
+      "refs": [
+        "G1",
+        "T1",
+        "A2",
+        "I1"
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "science",
+      "title": "การเคลื่อนที่ แรง และพลังงาน",
+      "goal": "โยงความชันและพื้นที่ใต้กราฟกับสมการแรงและพลังงาน",
+      "rules": [
+        "ความชัน x–t คือความเร็ว ความชัน v–t คือความเร่ง พื้นที่แบบมีเครื่องหมายใต้ v–t คือการกระจัด",
+        "a=Δv/Δt, ΣF=ma, W=Fs cosθ, K=½mv², U=mgh, τ=F d⊥",
+        "แรงสุทธิสัมพันธ์กับความเร่ง งานสุทธิสัมพันธ์กับการเปลี่ยนพลังงานจลน์"
+      ],
+      "examples": [
+        "v คงตัว −3 m/s 4 s ได้การกระจัด −12 m ระยะทาง 12 m",
+        "มวล 2 kg ความเร่ง 3 m/s² ใช้แรงลัพธ์ 6 N"
+      ],
+      "caution": "พื้นที่ใต้กราฟ v–t ที่ต่ำกว่าแกนมีเครื่องหมายลบ หากหาระยะทางให้รวมขนาดของแต่ละส่วน",
+      "pages": [
+        13,
+        14
+      ],
+      "refs": [
+        "F2",
+        "F4",
+        "F7",
+        "F9"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "science",
+      "title": "ความร้อน คลื่น และเสียง",
+      "goal": "แยกการเปลี่ยนสถานะจากอุณหภูมิและอ่านคลื่น",
+      "rules": [
+        "ความร้อนถ่ายเทเพราะความต่างอุณหภูมิ เสียงต้องอาศัยตัวกลาง ความถี่สัมพันธ์กับเสียงสูงต่ำ",
+        "Q=mcΔT หรือ mL ตามช่วง, v=fλ, T=1/f, d=vt/2 เมื่อเสียงไปกลับ",
+        "กราฟคลื่นกับระยะใช้หา λ ส่วนกราฟกับเวลาใช้หา T"
+      ],
+      "examples": [
+        "ถ้าพลังงาน 8,400 J ทำให้น้ำ 0.2 kg อุ่นขึ้น ใช้ c=4200 ได้ ΔT=10°C",
+        "คลื่น f=8 Hz, λ=0.5 m มี v=4 m/s"
+      ],
+      "caution": "อย่าอ่านยอดถึงท้องเป็นหนึ่งความยาวคลื่น",
+      "pages": [
+        15,
+        16
+      ],
+      "refs": [
+        "F14",
+        "F16",
+        "F17"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "d06-q01",
+      "number": 1,
+      "subject": "math",
+      "prompt": "ขนาดระยะระหว่าง −3.5 กับ 2.5 บนเส้นจำนวนเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 หน่วย"
+        },
+        {
+          "id": "b",
+          "text": "6.5 หน่วย"
+        },
+        {
+          "id": "c",
+          "text": "−6 หน่วย"
+        },
+        {
+          "id": "d",
+          "text": "6 หน่วย"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 42
+      },
+      "topic": "จำนวนจริง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "S1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "ระยะ = ค่าขนาดของผลต่างพิกัด",
+        "check": "เดินจาก −3.5 ถึง 0 แล้วเดินต่อถึง 2.5 ตรวจเชิงตัวเลขได้ 6 หน่วย",
+        "caution": "",
+        "review": "จำนวนจริง [S1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 1,
+      "reviewTitle": "จำนวนจริง"
+    },
+    {
+      "id": "d06-q02",
+      "number": 2,
+      "subject": "math",
+      "prompt": "ตัดสายยาว 3/4 m ออกจากม้วน 2 1/2 m เหลือเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.75 m"
+        },
+        {
+          "id": "b",
+          "text": "2 m"
+        },
+        {
+          "id": "c",
+          "text": "3.25 m"
+        },
+        {
+          "id": "d",
+          "text": "1.25 m"
+        }
+      ],
+      "source": {
+        "study": 19,
+        "answer": 42
+      },
+      "topic": "เศษส่วน",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "แปลงเป็นส่วน 4 แล้วลบ 10/4−3/4",
+        "check": "บวก 7/4 กับส่วนที่ตัด 3/4 คืน 5/2 ตรวจเชิงตัวเลขได้ 1.75 m",
+        "caution": "",
+        "review": "เศษส่วน [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 2,
+      "reviewTitle": "เศษส่วนและทศนิยม"
+    },
+    {
+      "id": "d06-q03",
+      "number": 3,
+      "subject": "math",
+      "prompt": "ส่วนลด 15% เป็นเงิน 45 บาท ราคาเดิมเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "675 บาท"
+        },
+        {
+          "id": "b",
+          "text": "255 บาท"
+        },
+        {
+          "id": "c",
+          "text": "345 บาท"
+        },
+        {
+          "id": "d",
+          "text": "300 บาท"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 43
+      },
+      "topic": "ร้อยละ",
+      "level": "ประยุกต์",
+      "refs": [
+        "A1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "ราคาเดิมคูณ 0.15 ได้ส่วนลด 45",
+        "check": "ถ้า 15% เท่ากับ 45 บาท 1% คือ 3 บาท จึง 100% คือ 300 บาท ตรวจเชิงตัวเลขได้ 300 บาท",
+        "caution": "",
+        "review": "ร้อยละ [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 3,
+      "reviewTitle": "ร้อยละ"
+    },
+    {
+      "id": "d06-q04",
+      "number": 4,
+      "subject": "math",
+      "prompt": "แบ่ง 84 ชิ้นในอัตรา 2:5 ส่วนที่มากกว่าได้กี่ชิ้น?",
+      "options": [
+        {
+          "id": "a",
+          "text": "42 ชิ้น"
+        },
+        {
+          "id": "b",
+          "text": "60 ชิ้น"
+        },
+        {
+          "id": "c",
+          "text": "70 ชิ้น"
+        },
+        {
+          "id": "d",
+          "text": "24 ชิ้น"
+        }
+      ],
+      "source": {
+        "study": 20,
+        "answer": 43
+      },
+      "topic": "อัตราส่วน",
+      "level": "ประยุกต์",
+      "refs": [
+        "A1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "7 ส่วนเท่ากับ 84 หน่วยละ 12 ส่วนใหญ่ 5 หน่วย",
+        "check": "อีกส่วนได้ 24 จึงเหลือ 60 และ 24:60=2:5 ตรวจเชิงตัวเลขได้ 60 ชิ้น",
+        "caution": "",
+        "review": "อัตราส่วน [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 4,
+      "reviewTitle": "อัตราส่วนและสัดส่วน"
+    },
+    {
+      "id": "d06-q05",
+      "number": 5,
+      "subject": "math",
+      "prompt": "นักเรียน 32 คน ชอบ A 20 คน ชอบ B 17 คน และชอบทั้งคู่ 8 คน ไม่ชอบทั้งสองวิชากี่คน?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 คน"
+        },
+        {
+          "id": "b",
+          "text": "3 คน"
+        },
+        {
+          "id": "c",
+          "text": "8 คน"
+        },
+        {
+          "id": "d",
+          "text": "5 คน"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 44
+      },
+      "topic": "เซต",
+      "level": "วิเคราะห์",
+      "refs": [
+        "S1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "หาสหภาพก่อนโดยหักส่วนที่นับซ้ำ",
+        "check": "เฉพาะ A มี 12 เฉพาะ B มี 9 ส่วนร่วม 8 จึงเหลือ 3 ตรวจเชิงตัวเลขได้ 3 คน",
+        "caution": "",
+        "review": "เซต [S1]"
+      },
+      "chapter": 1,
+      "reviewDay": "01",
+      "reviewChapter": 5,
+      "reviewTitle": "เซต"
+    },
+    {
+      "id": "d06-q06",
+      "number": 6,
+      "subject": "math",
+      "prompt": "ถ้า 2x=128 แล้ว x เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "64"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "source": {
+        "study": 21,
+        "answer": 44
+      },
+      "topic": "เลขยกกำลัง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ไล่กำลัง 2 จาก 64 คูณอีกครั้งได้ 128",
+        "check": "ตรวจ 2⁷=128 และกำลังของ 2 เพิ่มทุกครั้งเมื่อ x เพิ่ม ตรวจเชิงตัวเลขได้ 7",
+        "caution": "",
+        "review": "เลขยกกำลัง [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 1,
+      "reviewTitle": "เลขยกกำลัง"
+    },
+    {
+      "id": "d06-q07",
+      "number": 7,
+      "subject": "math",
+      "prompt": "ถ้า √(49x)=21 ในจำนวนจริง x เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "21"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 45
+      },
+      "topic": "กรณฑ์",
+      "level": "ประยุกต์",
+      "refs": [
+        "A1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "ยกกำลังสองได้ 49x=441",
+        "check": "แยก √49=7 จึง √x=3 ตรวจเชิงตัวเลขได้ 9",
+        "caution": "",
+        "review": "กรณฑ์ [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 2,
+      "reviewTitle": "กรณฑ์"
+    },
+    {
+      "id": "d06-q08",
+      "number": 8,
+      "subject": "math",
+      "prompt": "ถ้า P(x)=2x²−3x+1 แล้ว P(−2) เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "−13"
+        },
+        {
+          "id": "c",
+          "text": "−1"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "source": {
+        "study": 22,
+        "answer": 45
+      },
+      "topic": "พหุนาม",
+      "level": "วิเคราะห์",
+      "refs": [
+        "A1"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แทน x=−2 พร้อมวงเล็บแล้วคำนวณ",
+        "check": "แยก P=(x−1)(2x−1) แล้วแทน −2 ได้ (−3)(−5) ตรวจเชิงตัวเลขได้ 15",
+        "caution": "",
+        "review": "พหุนาม [A1]"
+      },
+      "chapter": 1,
+      "reviewDay": "02",
+      "reviewChapter": 3,
+      "reviewTitle": "พหุนาม"
+    },
+    {
+      "id": "d06-q09",
+      "number": 9,
+      "subject": "math",
+      "prompt": "ผลรวมของรากจริงของ x²−8x+15=0 เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15"
+        },
+        {
+          "id": "b",
+          "text": "−8"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 46
+      },
+      "topic": "สมการกำลังสอง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "A2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "แยก (x−3)(x−5) ได้ราก 3 กับ 5",
+        "check": "จากสัมประสิทธิ์ ผลรวมรากคือ −b/a=8 ตรวจเชิงตัวเลขได้ 8",
+        "caution": "",
+        "review": "สมการกำลังสอง [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 2,
+      "reviewTitle": "สมการกำลังสอง"
+    },
+    {
+      "id": "d06-q10",
+      "number": 10,
+      "subject": "math",
+      "prompt": "จำนวนเต็มมากที่สุดที่ทำให้ 5x−2<18 คือเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "−4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "source": {
+        "study": 23,
+        "answer": 46
+      },
+      "topic": "อสมการ",
+      "level": "วิเคราะห์",
+      "refs": [
+        "A2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "จัดได้ x<4 จึงไม่รวม 4",
+        "check": "แทน 3 ผ่าน แต่แทน 4 ได้ 18 เท่าขอบ ตรวจเชิงตัวเลขได้ 3",
+        "caution": "",
+        "review": "อสมการ [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 4,
+      "reviewTitle": "อสมการและเส้นจำนวน"
+    },
+    {
+      "id": "d06-q11",
+      "number": 11,
+      "subject": "math",
+      "prompt": "เส้นตรง y=4x−12 มีจุดตัดแกน x ที่ x เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−3"
+        },
+        {
+          "id": "b",
+          "text": "−12"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 47
+      },
+      "topic": "กราฟ",
+      "level": "ประยุกต์",
+      "refs": [
+        "A2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ตั้ง y=0 แล้วแก้ 4x=12",
+        "check": "แทน x=3 ได้ y=0 ตรวจเชิงตัวเลขได้ 3",
+        "caution": "",
+        "review": "กราฟ [A2]"
+      },
+      "chapter": 1,
+      "reviewDay": "03",
+      "reviewChapter": 5,
+      "reviewTitle": "กราฟและความสัมพันธ์เชิงเส้น"
+    },
+    {
+      "id": "d06-q12",
+      "number": 12,
+      "subject": "math",
+      "prompt": "สามเหลี่ยมจารึกในวงกลมมีด้าน AB เป็นเส้นผ่านศูนย์กลาง มุม ACB เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45 °"
+        },
+        {
+          "id": "b",
+          "text": "90 °"
+        },
+        {
+          "id": "c",
+          "text": "180 °"
+        },
+        {
+          "id": "d",
+          "text": "60 °"
+        }
+      ],
+      "source": {
+        "study": 24,
+        "answer": 47
+      },
+      "topic": "วงกลม",
+      "level": "พื้นฐาน",
+      "refs": [
+        "I1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "รองรับครึ่งวงกลม 180° มุมในวงกลมจึงครึ่งหนึ่ง",
+        "check": "บทมุมในครึ่งวงกลมให้มุมฉาก ตรวจเชิงตัวเลขได้ 90 °",
+        "caution": "",
+        "review": "วงกลม [I1]"
+      },
+      "chapter": 2,
+      "reviewDay": "04",
+      "reviewChapter": 4,
+      "reviewTitle": "วงกลม คอร์ด และเส้นสัมผัส"
+    },
+    {
+      "id": "d06-q13",
+      "number": 13,
+      "subject": "math",
+      "prompt": "ทางลาดยาว 10 m สูง 6 m ระยะฉายในแนวราบเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 m"
+        },
+        {
+          "id": "b",
+          "text": "8 m"
+        },
+        {
+          "id": "c",
+          "text": "16 m"
+        },
+        {
+          "id": "d",
+          "text": "64 m"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 48
+      },
+      "topic": "พีทาโกรัส",
+      "level": "ประยุกต์",
+      "refs": [
+        "T1"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "ด้านลาดเป็นด้านฉาก ใช้ √(100−36)",
+        "check": "สามเหลี่ยม 3–4–5 ขยายสองเท่า ตรวจเชิงตัวเลขได้ 8 m",
+        "caution": "",
+        "review": "พีทาโกรัส [T1]"
+      },
+      "chapter": 2,
+      "reviewDay": "04",
+      "reviewChapter": 3,
+      "reviewTitle": "ทฤษฎีบทพีทาโกรัส"
+    },
+    {
+      "id": "d06-q14",
+      "number": 14,
+      "subject": "math",
+      "prompt": "กล่องลูกบาศก์ด้าน 5 cm เปิดฝาหนึ่งด้าน พื้นที่ผิววัสดุเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 cm²"
+        },
+        {
+          "id": "b",
+          "text": "25 cm²"
+        },
+        {
+          "id": "c",
+          "text": "125 cm²"
+        },
+        {
+          "id": "d",
+          "text": "150 cm²"
+        }
+      ],
+      "source": {
+        "study": 25,
+        "answer": 48
+      },
+      "topic": "พื้นที่ผิว",
+      "level": "ประยุกต์",
+      "refs": [
+        "G1"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "เหลือห้าหน้า พื้นที่หน้าละ 25",
+        "check": "ลบฝาหนึ่งด้านจากพื้นที่ผิวปิด 150 ตรวจเชิงตัวเลขได้ 125 cm²",
+        "caution": "",
+        "review": "พื้นที่ผิว [G1]"
+      },
+      "chapter": 1,
+      "reviewDay": "05",
+      "reviewChapter": 2,
+      "reviewTitle": "พื้นที่ผิวและปริมาตร"
+    },
+    {
+      "id": "d06-q15",
+      "number": 15,
+      "subject": "math",
+      "prompt": "เสาตั้งฉากสูง 6 m ทอดเงา 6√3 m ค่า tan ของมุมเงยของแสงมีค่าเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "√(3)/3"
+        },
+        {
+          "id": "b",
+          "text": "√(3)"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "0.5"
+        }
+      ],
+      "source": {
+        "study": 26,
+        "answer": 49
+      },
+      "topic": "ตรีโกณมิติ",
+      "level": "วิเคราะห์",
+      "refs": [
+        "T1"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ใช้ด้านตรงข้าม/ประชิด = 6/(6√3)",
+        "check": "อัตราส่วนขา 1:√3 คือสามเหลี่ยม 30°–60°–90° และมุมเงยคือ 30° ตรวจเชิงตัวเลขได้ √(3)/3",
+        "caution": "",
+        "review": "ตรีโกณมิติ [T1]"
+      },
+      "chapter": 2,
+      "reviewDay": "05",
+      "reviewChapter": 4,
+      "reviewTitle": "อัตราส่วนตรีโกณมิติและความสูง"
+    },
+    {
+      "id": "d06-q16",
+      "number": 16,
+      "subject": "science",
+      "prompt": "เดินไปทางขวา 11 m แล้วย้อนซ้าย 7 m ระยะทางรวมเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "11 m"
+        },
+        {
+          "id": "b",
+          "text": "4 m"
+        },
+        {
+          "id": "c",
+          "text": "7 m"
+        },
+        {
+          "id": "d",
+          "text": "18 m"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 50
+      },
+      "topic": "ระยะทาง",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F2"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "ระยะทางรวมความยาวทุกช่วง",
+        "check": "เส้นช่วง 7 m ถูกเดินสองครั้ง ส่วนที่เหลือ 4 m เดินครั้งเดียว ตรวจเชิงตัวเลขได้ 18 m",
+        "caution": "",
+        "review": "ระยะทาง [F2]"
+      },
+      "chapter": 3,
+      "reviewDay": "01",
+      "reviewChapter": 6,
+      "reviewTitle": "ระยะทางและการกระจัด"
+    },
+    {
+      "id": "d06-q17",
+      "number": 17,
+      "subject": "science",
+      "prompt": "วิ่งไป 15 m แล้วย้อนกลับถึงจุดเริ่มใน 10 s ขนาดความเร็วเฉลี่ยเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 m/s"
+        },
+        {
+          "id": "b",
+          "text": "15 m/s"
+        },
+        {
+          "id": "c",
+          "text": "0 m/s"
+        },
+        {
+          "id": "d",
+          "text": "3 m/s"
+        }
+      ],
+      "source": {
+        "study": 27,
+        "answer": 50
+      },
+      "topic": "ความเร็วเฉลี่ย",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F2"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "จุดปลายตรงจุดต้น การกระจัดศูนย์",
+        "check": "ในเวกเตอร์ +15 และ −15 หักกัน ตรวจเชิงตัวเลขได้ 0 m/s",
+        "caution": "",
+        "review": "ความเร็วเฉลี่ย [F2]"
+      },
+      "chapter": 3,
+      "reviewDay": "01",
+      "reviewChapter": 7,
+      "reviewTitle": "อัตราเร็วและความเร็ว"
+    },
+    {
+      "id": "d06-q18",
+      "number": 18,
+      "subject": "science",
+      "prompt": "รถมี v เปลี่ยนจาก +7 เป็น +1 m/s ใน 3 s ความเร่งเฉลี่ยเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−2 m/s²"
+        },
+        {
+          "id": "b",
+          "text": "2 m/s²"
+        },
+        {
+          "id": "c",
+          "text": "−3 m/s²"
+        },
+        {
+          "id": "d",
+          "text": "−8/3 m/s²"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 51
+      },
+      "topic": "ความเร่ง",
+      "level": "ประยุกต์",
+      "refs": [
+        "F2"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "หารผลต่างปลายลบต้นด้วยเวลา",
+        "check": "ค่า −2 คูณ 3 s แล้วบวก 7 ได้ 1 m/s ตรวจเชิงตัวเลขได้ −2 m/s²",
+        "caution": "",
+        "review": "ความเร่ง [F2]"
+      },
+      "chapter": 3,
+      "reviewDay": "01",
+      "reviewChapter": 8,
+      "reviewTitle": "ความเร่ง"
+    },
+    {
+      "id": "d06-q19",
+      "number": 19,
+      "subject": "science",
+      "prompt": "รถ 4 kg เร่ง 2 m/s² ทางขวา มีแรงต้าน 3 N ทางซ้าย แรงดันทางขวาเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8 N"
+        },
+        {
+          "id": "b",
+          "text": "6 N"
+        },
+        {
+          "id": "c",
+          "text": "11 N"
+        },
+        {
+          "id": "d",
+          "text": "5 N"
+        }
+      ],
+      "source": {
+        "study": 28,
+        "answer": 51
+      },
+      "topic": "แรงสุทธิ",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F4"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "แรงสุทธิ +8 N จึงต้องดัน 8+3",
+        "check": "แรงดัน 11 ลบต้าน 3 เหลือ 8 และหาร 4 ได้ 2 ตรวจเชิงตัวเลขได้ 11 N",
+        "caution": "",
+        "review": "แรงสุทธิ [F4]"
+      },
+      "chapter": 3,
+      "reviewDay": "02",
+      "reviewChapter": 5,
+      "reviewTitle": "แรงและแผนภาพแรง"
+    },
+    {
+      "id": "d06-q20",
+      "number": 20,
+      "subject": "science",
+      "prompt": "บนดาวที่ g=4 m/s² วัตถุหนัก 28 N มวลเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "112 kg"
+        },
+        {
+          "id": "b",
+          "text": "24 kg"
+        },
+        {
+          "id": "c",
+          "text": "7 kg"
+        },
+        {
+          "id": "d",
+          "text": "4 kg"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 52
+      },
+      "topic": "น้ำหนัก",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F4"
+      ],
+      "correct": "c",
+      "solution": {
+        "method": "ใช้ m=W/g",
+        "check": "7×4=28 N ตรวจเชิงตัวเลขได้ 7 kg",
+        "caution": "",
+        "review": "น้ำหนัก [F4]"
+      },
+      "chapter": 3,
+      "reviewDay": "02",
+      "reviewChapter": 6,
+      "reviewTitle": "กฎนิวตัน"
+    },
+    {
+      "id": "d06-q21",
+      "number": 21,
+      "subject": "science",
+      "prompt": "แรงต้านคงตัว 7 N สวนการกระจัด 5 m ทำงานเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−35 J"
+        },
+        {
+          "id": "b",
+          "text": "35 J"
+        },
+        {
+          "id": "c",
+          "text": "12 J"
+        },
+        {
+          "id": "d",
+          "text": "−12 J"
+        }
+      ],
+      "source": {
+        "study": 29,
+        "answer": 52
+      },
+      "topic": "งาน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F7"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "องค์ประกอบแรงตามแนวการกระจัดเป็น −7 N",
+        "check": "กำลังของแรงต้านขณะเดินหน้ามีเครื่องหมายลบทุกช่วง ตรวจเชิงตัวเลขได้ −35 J",
+        "caution": "",
+        "review": "งาน [F7]"
+      },
+      "chapter": 3,
+      "reviewDay": "03",
+      "reviewChapter": 6,
+      "reviewTitle": "งานและกำลัง"
+    },
+    {
+      "id": "d06-q22",
+      "number": 22,
+      "subject": "science",
+      "prompt": "เครื่องยกทำงานด้วยกำลังเฉลี่ย 90 W นาน 5 s ได้งานเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "85 J"
+        },
+        {
+          "id": "b",
+          "text": "450 J"
+        },
+        {
+          "id": "c",
+          "text": "95 J"
+        },
+        {
+          "id": "d",
+          "text": "18 J"
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 53
+      },
+      "topic": "กำลัง",
+      "level": "ประยุกต์",
+      "refs": [
+        "F7"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "W=Pt เพราะ W หน่วยวัตต์คือ J/s",
+        "check": "แบ่งเป็น 5 วินาที วินาทีละ 90 J ตรวจเชิงตัวเลขได้ 450 J",
+        "caution": "",
+        "review": "กำลัง [F7]"
+      },
+      "chapter": 3,
+      "reviewDay": "03",
+      "reviewChapter": 6,
+      "reviewTitle": "งานและกำลัง"
+    },
+    {
+      "id": "d06-q23",
+      "number": 23,
+      "subject": "science",
+      "prompt": "วัตถุมวลเดิมลดอัตราเร็วจาก 8 เป็น 4 m/s พลังงานจลน์ใหม่เป็นกี่ส่วนของเดิม?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.25"
+        },
+        {
+          "id": "b",
+          "text": "0.125"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "0.5"
+        }
+      ],
+      "source": {
+        "study": 30,
+        "answer": 53
+      },
+      "topic": "พลังงาน",
+      "level": "วิเคราะห์",
+      "refs": [
+        "F7"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "อัตราส่วน K ใช้กำลังสองของอัตราส่วนอัตราเร็ว",
+        "check": "ลอง m=2 kg ได้ K เดิม 64 J และใหม่ 16 J ตรวจเชิงตัวเลขได้ 0.25",
+        "caution": "",
+        "review": "พลังงาน [F7]"
+      },
+      "chapter": 3,
+      "reviewDay": "03",
+      "reviewChapter": 7,
+      "reviewTitle": "พลังงานกล"
+    },
+    {
+      "id": "d06-q24",
+      "number": 24,
+      "subject": "science",
+      "prompt": "แรง 100 N มีแนวแรงผ่านจุดหมุนพอดี โมเมนต์มีขนาดเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 N·m"
+        },
+        {
+          "id": "b",
+          "text": "100 N·m"
+        },
+        {
+          "id": "c",
+          "text": "1000 N·m"
+        },
+        {
+          "id": "d",
+          "text": "0 N·m"
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 54
+      },
+      "topic": "โมเมนต์",
+      "level": "ประยุกต์",
+      "refs": [
+        "F9"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "แขนแรงตั้งฉากเป็นศูนย์",
+        "check": "ย้ายจุดกระทำตามแนวแรงมาที่จุดหมุนก็ยังไม่มีแนวโน้มหมุนรอบจุดนั้น ตรวจเชิงตัวเลขได้ 0 N·m",
+        "caution": "",
+        "review": "โมเมนต์ [F9]"
+      },
+      "chapter": 3,
+      "reviewDay": "03",
+      "reviewChapter": 8,
+      "reviewTitle": "โมเมนต์ของแรง"
+    },
+    {
+      "id": "d06-q25",
+      "number": 25,
+      "subject": "science",
+      "prompt": "แท่งโลหะ 0.5 kg รับความร้อน 9000 J แล้วร้อนขึ้น 20°C โดยไม่เปลี่ยนสถานะ c เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "900 J/(kg·°C)"
+        },
+        {
+          "id": "b",
+          "text": "180 J/(kg·°C)"
+        },
+        {
+          "id": "c",
+          "text": "450 J/(kg·°C)"
+        },
+        {
+          "id": "d",
+          "text": "18000 J/(kg·°C)"
+        }
+      ],
+      "source": {
+        "study": 31,
+        "answer": 54
+      },
+      "topic": "ความร้อน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F14"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ใช้ c=Q/(mΔT)",
+        "check": "900×0.5×20 คืน 9000 J ตรวจเชิงตัวเลขได้ 900 J/(kg·°C)",
+        "caution": "",
+        "review": "ความร้อน [F14]"
+      },
+      "chapter": 4,
+      "reviewDay": "04",
+      "reviewChapter": 5,
+      "reviewTitle": "อุณหภูมิและปริมาณความร้อน"
+    },
+    {
+      "id": "d06-q26",
+      "number": 26,
+      "subject": "science",
+      "prompt": "ของแข็ง 0.4 kg รับ 80 kJ เพื่อหลอมทั้งหมดที่จุดหลอมเหลว L เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 kJ/kg"
+        },
+        {
+          "id": "b",
+          "text": "200 kJ/kg"
+        },
+        {
+          "id": "c",
+          "text": "320 kJ/kg"
+        },
+        {
+          "id": "d",
+          "text": "32 kJ/kg"
+        }
+      ],
+      "source": {
+        "study": 32,
+        "answer": 55
+      },
+      "topic": "การเปลี่ยนสถานะ",
+      "level": "ประยุกต์",
+      "refs": [
+        "F14"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "L=Q/m ใช้หน่วย kJ และ kg ตามโจทย์",
+        "check": "ถ้า 0.4 kg ใช้ 80 kJ, 0.1 kg ใช้ 20 kJ จึง 1 kg ใช้ 200 kJ ตรวจเชิงตัวเลขได้ 200 kJ/kg",
+        "caution": "",
+        "review": "การเปลี่ยนสถานะ [F14]"
+      },
+      "chapter": 4,
+      "reviewDay": "04",
+      "reviewChapter": 5,
+      "reviewTitle": "อุณหภูมิและปริมาณความร้อน"
+    },
+    {
+      "id": "d06-q27",
+      "number": 27,
+      "subject": "science",
+      "prompt": "เวลาระหว่างยอดต่อเนื่องที่จุดเดิม 0.2 s มีความถี่เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.2 Hz"
+        },
+        {
+          "id": "b",
+          "text": "2 Hz"
+        },
+        {
+          "id": "c",
+          "text": "50 Hz"
+        },
+        {
+          "id": "d",
+          "text": "5 Hz"
+        }
+      ],
+      "source": {
+        "study": 32,
+        "answer": 55
+      },
+      "topic": "คลื่น",
+      "level": "พื้นฐาน",
+      "refs": [
+        "F16"
+      ],
+      "correct": "d",
+      "solution": {
+        "method": "เวลาระหว่างยอดเป็นคาบ ความถี่คือส่วนกลับ",
+        "check": "5 คาบใช้ 1 s ตรวจเชิงตัวเลขได้ 5 Hz",
+        "caution": "",
+        "review": "คลื่น [F16]"
+      },
+      "chapter": 4,
+      "reviewDay": "05",
+      "reviewChapter": 5,
+      "reviewTitle": "สมบัติของคลื่น"
+    },
+    {
+      "id": "d06-q28",
+      "number": 28,
+      "subject": "science",
+      "prompt": "ยอดถึงท้องถัดไป 7 cm ความยาวคลื่นเท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14 cm"
+        },
+        {
+          "id": "b",
+          "text": "3.5 cm"
+        },
+        {
+          "id": "c",
+          "text": "7 cm"
+        },
+        {
+          "id": "d",
+          "text": "28 cm"
+        }
+      ],
+      "source": {
+        "study": 33,
+        "answer": 56
+      },
+      "topic": "ความยาวคลื่น",
+      "level": "ประยุกต์",
+      "refs": [
+        "F16"
+      ],
+      "correct": "a",
+      "solution": {
+        "method": "ยอดถึงท้องถัดไปเป็นครึ่งคาบเชิงตำแหน่ง",
+        "check": "จากยอดถึงท้อง 7 cm และท้องถึงยอดถัดไปอีก 7 cm ตรวจเชิงตัวเลขได้ 14 cm",
+        "caution": "",
+        "review": "ความยาวคลื่น [F16]"
+      },
+      "chapter": 4,
+      "reviewDay": "05",
+      "reviewChapter": 5,
+      "reviewTitle": "สมบัติของคลื่น"
+    },
+    {
+      "id": "d06-q29",
+      "number": 29,
+      "subject": "science",
+      "prompt": "กำแพงห่าง 51 m เสียงความเร็ว 340 m/s จะกลับถึงต้นทางในกี่วินาที?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5 s"
+        },
+        {
+          "id": "b",
+          "text": "0.3 s"
+        },
+        {
+          "id": "c",
+          "text": "0.15 s"
+        },
+        {
+          "id": "d",
+          "text": "0.6 s"
+        }
+      ],
+      "source": {
+        "study": 33,
+        "answer": 56
+      },
+      "topic": "เสียงสะท้อน",
+      "level": "ประยุกต์",
+      "refs": [
+        "F17"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "เวลาใช้ระยะรวมไปกลับ 102 m",
+        "check": "เดินทางไป 0.15 s แล้วกลับอีก 0.15 s ตรวจเชิงตัวเลขได้ 0.3 s",
+        "caution": "",
+        "review": "เสียงสะท้อน [F17]"
+      },
+      "chapter": 4,
+      "reviewDay": "05",
+      "reviewChapter": 6,
+      "reviewTitle": "เสียงและเสียงสะท้อน"
+    },
+    {
+      "id": "d06-q30",
+      "number": 30,
+      "subject": "science",
+      "prompt": "เสียงมี λ=0.8 m และ v=320 m/s ความถี่เท่าใด?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 Hz"
+        },
+        {
+          "id": "b",
+          "text": "400 Hz"
+        },
+        {
+          "id": "c",
+          "text": "0.0025 Hz"
+        },
+        {
+          "id": "d",
+          "text": "256 Hz"
+        }
+      ],
+      "source": {
+        "study": 34,
+        "answer": 57
+      },
+      "topic": "เสียง",
+      "level": "ประยุกต์",
+      "refs": [
+        "F17"
+      ],
+      "correct": "b",
+      "solution": {
+        "method": "f=v/λ",
+        "check": "400×0.8=320 m/s ตรวจเชิงตัวเลขได้ 400 Hz",
+        "caution": "",
+        "review": "เสียง [F17]"
+      },
+      "chapter": 4,
+      "reviewDay": "05",
+      "reviewChapter": 6,
+      "reviewTitle": "เสียงและเสียงสะท้อน"
+    }
+  ],
+  "sources": {
+    "A1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 1 เลขยกกำลัง กรณฑ์ พหุนามและการแยก ตัวประกอบ",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-introduction-to-prerequisites"
+    },
+    "A2": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 2 สมการ อสมการ และพิกัด",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-introduction-to-equations-and-inequalities"
+    },
+    "F14": {
+      "title": "OpenStax College Physics 2e (2022) บท 14 ความร้อนและการถ่ายเทความร้อน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-introduction-to-heat-and-heat-transfer-methods"
+    },
+    "F16": {
+      "title": "OpenStax College Physics 2e (2022) §16.9 คลื่น",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves"
+    },
+    "F17": {
+      "title": "OpenStax College Physics 2e (2022) §17.2 อัตราเร็ว ความถี่ และความยาวคลื่นเสียง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+    },
+    "F2": {
+      "title": "OpenStax College Physics 2e (2022) บท 2 การเคลื่อนที่แนวตรง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics"
+    },
+    "F4": {
+      "title": "OpenStax College Physics 2e (2022) บท 4 แรงและกฎของนิวตัน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-introduction-to-dynamics-newtons-laws-of-motion"
+    },
+    "F7": {
+      "title": "OpenStax College Physics 2e (2022) บท 7 งาน พลังงาน และกำลัง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-introduction-to-work-energy-and-energy-resources"
+    },
+    "F9": {
+      "title": "OpenStax College Physics 2e (2022) §9.2 โมเมนต์และสมดุลการหมุน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium"
+    },
+    "G1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 10 เรขาคณิต",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-introduction"
+    },
+    "I1": {
+      "title": "สสวท. Project 14 หนังสือเรียนคณิตศาสตร์ ม.3 เล่ม 2 รายการบทเรียนและสื่อ",
+      "url": "https://proj14.ipst.ac.th/m3/m3-math-book2/"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    },
+    "S1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 1 เซตและแผนภาพเวนน์",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/1-introduction"
+    },
+    "T1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) §7.2 ตรีโกณมิติสามเหลี่ยมมุมฉาก",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry"
+    }
+  },
+  "schedule": [
+    "20.00–20.50 จำนวน เซต และพีชคณิต / เรขาคณิตและกราฟ",
+    "20.50–21.00 พัก",
+    "21.00–21.50 การเคลื่อนที่ แรง และพลังงาน / ความร้อน คลื่น และเสียง",
+    "21.50–22.00 พักและเตรียมกระดาษคำตอบ",
+    "22.00–22.40 ทำแบบทดสอบ 30 ข้อ",
+    "22.40–23.00 ตรวจเฉลยและบันทึกข้อผิด"
+  ]
+}

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "01",
+    "title": "พื้นฐานคณิตศาสตร์และการเคลื่อนที่",
+    "date": 10,
+    "minutes": 40,
+    "lessons": 9,
+    "count": 20,
+    "subjects": {
+      "math": 10,
+      "science": 10
+    },
+    "topics": [
+      "จำนวนจริง",
+      "เศษส่วนและทศนิยม",
+      "ร้อยละ",
+      "อัตราส่วนและสัดส่วน",
+      "เซต",
+      "ระยะทางและการกระจัด",
+      "อัตราเร็วและความเร็ว",
+      "ความเร่ง",
+      "อ่านกราฟการเคลื่อนที่"
+    ],
+    "pdf": "KMUTNB_E03002_DAY01_StudyGuide.pdf",
+    "answerPdf": "KMUTNB_E03002_DAY01_AnswerKey.pdf"
+  },
+  {
+    "id": "02",
+    "title": "เลขยกกำลัง พหุนาม และแรง",
+    "date": 11,
+    "minutes": 40,
+    "lessons": 6,
+    "count": 20,
+    "subjects": {
+      "math": 12,
+      "science": 8
+    },
+    "topics": [
+      "เลขยกกำลัง",
+      "กรณฑ์",
+      "พหุนาม",
+      "การแยกตัวประกอบ",
+      "แรงและแผนภาพแรง",
+      "กฎนิวตัน"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day02.pdf"
+  },
+  {
+    "id": "03",
+    "title": "สมการ กราฟ งาน และพลังงาน",
+    "date": 12,
+    "minutes": 40,
+    "lessons": 8,
+    "count": 20,
+    "subjects": {
+      "math": 12,
+      "science": 8
+    },
+    "topics": [
+      "สมการเชิงเส้นและโจทย์ปัญหา",
+      "สมการกำลังสอง",
+      "ระบบสมการสองตัวแปร",
+      "อสมการและเส้นจำนวน",
+      "กราฟและความสัมพันธ์เชิงเส้น",
+      "งานและกำลัง",
+      "พลังงานกล",
+      "โมเมนต์ของแรง"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day03.pdf"
+  },
+  {
+    "id": "04",
+    "title": "เรขาคณิตและความร้อน",
+    "date": 13,
+    "minutes": 40,
+    "lessons": 6,
+    "count": 20,
+    "subjects": {
+      "math": 10,
+      "science": 10
+    },
+    "topics": [
+      "มุมและเส้นขนาน",
+      "สามเหลี่ยม รูปหลายเหลี่ยม และความคล้าย",
+      "ทฤษฎีบทพีทาโกรัส",
+      "วงกลม คอร์ด และเส้นสัมผัส",
+      "อุณหภูมิและปริมาณความร้อน",
+      "การถ่ายเทและการขยายตัว"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day04.pdf"
+  },
+  {
+    "id": "05",
+    "title": "พื้นที่ ปริมาตร ตรีโกณมิติ คลื่น และเสียง",
+    "date": 14,
+    "minutes": 40,
+    "lessons": 6,
+    "count": 20,
+    "subjects": {
+      "math": 12,
+      "science": 8
+    },
+    "topics": [
+      "พื้นที่และความยาวรอบรูป",
+      "พื้นที่ผิวและปริมาตร",
+      "พิกัดฉากและระยะห่าง",
+      "อัตราส่วนตรีโกณมิติและความสูง",
+      "สมบัติของคลื่น",
+      "เสียงและเสียงสะท้อน"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day05.pdf"
+  },
+  {
+    "id": "06",
+    "title": "ทบทวนคณิตศาสตร์และฟิสิกส์ DAY 01–05",
+    "date": 15,
+    "minutes": 40,
+    "lessons": 4,
+    "count": 30,
+    "subjects": {
+      "math": 15,
+      "science": 15
+    },
+    "topics": [
+      "จำนวน เซต และพีชคณิต",
+      "เรขาคณิตและกราฟ",
+      "การเคลื่อนที่ แรง และพลังงาน",
+      "ความร้อน คลื่น และเสียง"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day06.pdf"
+  },
+  {
+    "id": "07",
+    "title": "สถิติ ความน่าจะเป็น การแปรผัน และแสง",
+    "date": 16,
+    "minutes": 40,
+    "lessons": 5,
+    "count": 20,
+    "subjects": {
+      "math": 12,
+      "science": 8
+    },
+    "topics": [
+      "สถิติและการอ่านข้อมูล",
+      "ความน่าจะเป็น",
+      "การแปรผัน",
+      "การสะท้อนและการหักเห",
+      "กระจกและเลนส์"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day07.pdf"
+  },
+  {
+    "id": "08",
+    "title": "ไฟฟ้า วงจร และแม่เหล็ก",
+    "date": 17,
+    "minutes": 40,
+    "lessons": 4,
+    "count": 20,
+    "subjects": {
+      "science": 20
+    },
+    "topics": [
+      "กระแส แรงดัน และกฎของโอห์ม",
+      "วงจรอนุกรมและขนาน",
+      "กำลังและพลังงานไฟฟ้า",
+      "สนามแม่เหล็กและการเหนี่ยวนำ"
+    ],
+    "lessonSubjects": [
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day08.pdf"
+  },
+  {
+    "id": "09",
+    "title": "พื้นฐานวิชาชีพไฟฟ้าและอิเล็กทรอนิกส์",
+    "date": 18,
+    "minutes": 40,
+    "lessons": 4,
+    "count": 20,
+    "subjects": {
+      "trade": 20
+    },
+    "topics": [
+      "สัญลักษณ์ อุปกรณ์ และหน่วย",
+      "ไดโอด LED และการจำกัดกระแส",
+      "ทรานซิสเตอร์ รีเลย์ และการป้องกัน",
+      "มัลติมิเตอร์และวิเคราะห์วงจรพื้นฐาน"
+    ],
+    "lessonSubjects": [
+      "trade"
+    ],
+    "pdf": "KMUTNB_E03002_Day09.pdf"
+  },
+  {
+    "id": "10",
+    "title": "พื้นฐานเครื่องกล เครื่องมือวัด และโยธา",
+    "date": 19,
+    "minutes": 40,
+    "lessons": 3,
+    "count": 20,
+    "subjects": {
+      "trade": 20
+    },
+    "topics": [
+      "เครื่องกลอย่างง่ายและการส่งกำลัง",
+      "เครื่องมือวัดและการอ่านสเกล",
+      "พื้นฐานโยธา โครงสร้าง และมาตราส่วน"
+    ],
+    "lessonSubjects": [
+      "trade"
+    ],
+    "pdf": "KMUTNB_E03002_Day10.pdf"
+  },
+  {
+    "id": "11",
+    "title": "ภาษาอังกฤษ Grammar ชุดที่ 1",
+    "date": 20,
+    "minutes": 40,
+    "lessons": 4,
+    "count": 25,
+    "subjects": {
+      "english": 25
+    },
+    "topics": [
+      "Nouns, pronouns และ articles",
+      "Verbs และ tenses",
+      "Modals และ questions",
+      "Prepositions of time and place"
+    ],
+    "lessonSubjects": [
+      "english"
+    ],
+    "pdf": "KMUTNB_E03002_Day11.pdf"
+  },
+  {
+    "id": "12",
+    "title": "Grammar ชุดที่ 2 และทักษะภาษาอังกฤษ",
+    "date": 21,
+    "minutes": 40,
+    "lessons": 4,
+    "count": 30,
+    "subjects": {
+      "english": 30
+    },
+    "topics": [
+      "Adjectives, adverbs และ comparisons",
+      "Conjunctions, passive และ relative clauses",
+      "Vocabulary และ reading",
+      "Conversation, cloze และ error identification"
+    ],
+    "lessonSubjects": [
+      "english"
+    ],
+    "pdf": "KMUTNB_E03002_Day12.pdf"
+  },
+  {
+    "id": "13",
+    "title": "ทบทวนคณิตศาสตร์และวิทยาศาสตร์ทั้งหมด",
+    "date": 22,
+    "minutes": 40,
+    "lessons": 2,
+    "count": 40,
+    "subjects": {
+      "math": 20,
+      "science": 20
+    },
+    "topics": [
+      "เลือกเครื่องมือคณิตศาสตร์",
+      "ตรวจความสัมพันธ์ฟิสิกส์"
+    ],
+    "lessonSubjects": [
+      "math",
+      "science"
+    ],
+    "pdf": "KMUTNB_E03002_Day13.pdf"
+  },
+  {
+    "id": "14",
+    "title": "ทบทวนวิชาชีพและภาษาอังกฤษ",
+    "date": 23,
+    "minutes": 40,
+    "lessons": 2,
+    "count": 40,
+    "subjects": {
+      "trade": 20,
+      "english": 20
+    },
+    "topics": [
+      "อ่านผัง วัด และวิเคราะห์อาการ",
+      "ไวยากรณ์และภาษาในงานช่าง"
+    ],
+    "lessonSubjects": [
+      "english",
+      "trade"
+    ],
+    "pdf": "KMUTNB_E03002_Day14.pdf"
+  },
+  {
+    "id": "15",
+    "title": "ข้อสอบจำลองชุดที่ 1",
+    "date": 24,
+    "minutes": 120,
+    "lessons": 1,
+    "count": 40,
+    "subjects": {
+      "math": 10,
+      "science": 10,
+      "trade": 10,
+      "english": 10
+    },
+    "topics": [
+      "เตรียมสอบจำลองและจัดเวลา"
+    ],
+    "lessonSubjects": [
+      "math"
+    ],
+    "pdf": "KMUTNB_E03002_Day15.pdf"
+  },
+  {
+    "id": "16",
+    "title": "วิเคราะห์ข้อผิดและแก้จุดอ่อน",
+    "date": 25,
+    "minutes": 40,
+    "lessons": 1,
+    "count": 20,
+    "subjects": {
+      "math": 5,
+      "science": 5,
+      "trade": 5,
+      "english": 5
+    },
+    "topics": [
+      "จำแนกสาเหตุและแก้ทีละจุด"
+    ],
+    "lessonSubjects": [
+      "math"
+    ],
+    "pdf": "KMUTNB_E03002_Day16.pdf"
+  },
+  {
+    "id": "17",
+    "title": "ข้อสอบจำลองชุดที่ 2",
+    "date": 26,
+    "minutes": 120,
+    "lessons": 1,
+    "count": 40,
+    "subjects": {
+      "math": 10,
+      "science": 10,
+      "trade": 10,
+      "english": 10
+    },
+    "topics": [
+      "จำลองครั้งที่สองและเทียบผล"
+    ],
+    "lessonSubjects": [
+      "math"
+    ],
+    "pdf": "KMUTNB_E03002_Day17.pdf"
+  },
+  {
+    "id": "18",
+    "title": "สรุปก่อนสอบและเตรียมสัมภาษณ์",
+    "date": 27,
+    "minutes": 0,
+    "lessons": 4,
+    "count": 0,
+    "subjects": {},
+    "topics": [
+      "สรุปคณิตศาสตร์ก่อนสอบ",
+      "สรุปวิทยาศาสตร์และวิชาชีพ",
+      "สรุปภาษาอังกฤษก่อนสอบ",
+      "เช็กวันสอบ เอกสาร และซ้อมสัมภาษณ์"
+    ],
+    "lessonSubjects": [
+      "english",
+      "math",
+      "science",
+      "trade"
+    ],
+    "pdf": "KMUTNB_E03002_Day18.pdf"
+  }
+]

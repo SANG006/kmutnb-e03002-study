@@ -1,0 +1,243 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "subject": "math",
+      "title": "สรุปคณิตศาสตร์ก่อนสอบ",
+      "goal": "เรียกสูตรที่ใช้บ่อยจากความจำและตรวจเงื่อนไข",
+      "rules": [
+        "จัดโจทย์ตามคำถาม หาค่าพอดีใช้สมการ หาขอบเขตใช้อสมการ หาสัดส่วนในรูปใช้ความคล้าย และแยกข้อมูลดิบจาก ข้อมูลสรุป",
+        "m=Δy/Δx, a²+b²=c², tanθ=ตรงข้าม/ประชิด, P(A)=จำนวนที่ต้องการ/จำนวนทั้งหมดเมื่อผลเท่ากัน",
+        "เขียนสูตรโดยปิดหนังสือและเติมชื่อหน่วย เงื่อนไข หรือข้อจำกัดกำกับ"
+      ],
+      "examples": [
+        "−3x≥12 ให้ x≤−4 ตรวจ x=−5 ได้ 15≥12",
+        "รูปคล้ายด้านเพิ่ม 2 เท่า พื้นที่เพิ่มเป็น 4 เท่า"
+      ],
+      "caution": "เมื่อหารอสมการด้วยจำนวนลบต้องกลับเครื่องหมาย",
+      "pages": [
+        7,
+        8
+      ],
+      "refs": [
+        "A1",
+        "A2",
+        "A4",
+        "G1",
+        "T1",
+        "S7",
+        "S8",
+        "I1"
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "science",
+      "title": "สรุปวิทยาศาสตร์และวิชาชีพ",
+      "goal": "จับสูตรกับปริมาณและหน่วยหลัก",
+      "rules": [
+        "แรงใช้ N งานและพลังงานใช้ J กำลังใช้ W โมเมนต์ใช้ N·m และกระแสใช้ A เลือกค่าที่วัดให้ตรงปริมาณ",
+        "a=Δv/Δt, ΣF=ma, W=Fs cosθ, K=½mv², Q=mcΔT, v=fλ, V=IR, P=VI ใน DC",
+        "จำว่า θ ในงานเป็นมุมแรงกับการกระจัด ส่วน θ ในแสงวัดจากเส้นฉาก"
+      ],
+      "examples": [
+        "12 V คร่อม 6 Ω ให้ I=2 A และ P=24 W",
+        "เสียงไปกลับ 0.2 s ที่ 340 m/s ให้ระยะทางเดียว 34 m"
+      ],
+      "caution": "การใช้สูตร LED ต้องรู้ Vf และจำกัดกระแส วัด A อนุกรม V ขนาน",
+      "pages": [
+        11,
+        12
+      ],
+      "refs": [
+        "F2",
+        "F4",
+        "F7",
+        "F9",
+        "F14",
+        "F16",
+        "F17",
+        "F20",
+        "F21",
+        "F22",
+        "F25",
+        "E1",
+        "E2",
+        "M1"
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "english",
+      "title": "สรุปภาษาอังกฤษก่อนสอบ",
+      "goal": "อ่านคำสั่งและตรวจรูปกริยาได้เร็ว",
+      "rules": [
+        "อ่านคำถามก่อนสแกนข้อความ แยกคำสั่ง ขออนุญาต และข้อบังคับ ตรวจ article และตัวชี้เวลา",
+        "did/modal + V; passive = be + V3; since + จุดเริ่ม; for + ช่วงเวลา",
+        "แปลความหมายทั้งประโยคและดูคำปฏิเสธ เช่น except หรือ not"
+      ],
+      "examples": [
+        "Did she check it? ใช้ check หลัง did",
+        "The parts were delivered yesterday. เป็น past passive"
+      ],
+      "caution": "must not = ห้าม และ do not have to = ไม่จำเป็น",
+      "pages": [
+        15,
+        16
+      ],
+      "refs": [
+        "B1",
+        "B2",
+        "BR",
+        "BS"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "trade",
+      "title": "เช็กวันสอบ เอกสาร และซ้อมสัมภาษณ์",
+      "goal": "จัดเอกสารตามประกาศและตอบโดยยกตัวอย่างจริง",
+      "rules": [
+        "ระเบียบการกำหนดสอบข้อเขียน 28 พฤศจิกายน 2569 เวลา 09.00–11.00 น. และสัมภาษณ์ 13.00–16.00 น. ตรวจประกาศและห้องสอบจากระบบรับสมัครก่อนเดินทาง",
+        "เอกสารสัมภาษณ์ตามระเบียบ หน้า 3 ได้แก่ หลักฐานการสมัคร สำเนาใบ ปพ. ที่มีผล 4 ภาคเรียน 1 ฉบับ บัตร ประชาชนพร้อมสำเนา 1 ฉบับ และเกียรติบัตรหรือผลงานถ้ามี",
+        "ซ้อมตอบสั้น ๆ ว่าทำไมสนใจสาขา เคยลองทำอะไร บทบาทของตนคืออะไร และอยากพัฒนาทักษะใด โดย ใช้เหตุการณ์จริง"
+      ],
+      "examples": [
+        "คำถามฝึก ทำไมเลือกสาขา E ให้ตอบเหตุผลหนึ่งข้อพร้อมหลักฐานจากประสบการณ์จริง",
+        "คำถามฝึก เคยแก้ปัญหาอะไร ให้เล่าปัญหา วิธีลองแก้ ผล และสิ่งที่เรียนรู้ใน 45–60 วินาที"
+      ],
+      "caution": "รายการอุปกรณ์ข้อเขียนและข้ออนุญาตเรื่องเครื่องคิดเลขให้ตรวจประกาศเพิ่มเติมของสนามสอบ",
+      "pages": [
+        19,
+        20
+      ],
+      "refs": [
+        "K"
+      ]
+    }
+  ],
+  "questions": [],
+  "sources": {
+    "A1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 1 เลขยกกำลัง กรณฑ์ พหุนามและการแยก ตัวประกอบ",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-introduction-to-prerequisites"
+    },
+    "A2": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) บท 2 สมการ อสมการ และพิกัด",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-introduction-to-equations-and-inequalities"
+    },
+    "A4": {
+      "title": "OpenStax Elementary Algebra 2e (2020) §8.9 การแปรผันตรงและผกผัน",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/8-9-use-direct-and-inverse-variation"
+    },
+    "B1": {
+      "title": "British Council LearnEnglish A1–A2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    "B2": {
+      "title": "British Council LearnEnglish B1–B2 Grammar",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    "BR": {
+      "title": "British Council LearnEnglish A2 Reading",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a2"
+    },
+    "BS": {
+      "title": "British Council LearnEnglish A2 Speaking",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/speaking/a2"
+    },
+    "E1": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume I – DC วงจรและการวัดไฟฟ้า",
+      "url": "https://www.allaboutcircuits.com/textbook/direct-current/"
+    },
+    "E2": {
+      "title": "All About Circuits Lessons in Electric Circuits, Volume III – Semiconductors ไดโอดและ ทรานซิสเตอร์",
+      "url": "https://www.allaboutcircuits.com/textbook/semiconductors/"
+    },
+    "F14": {
+      "title": "OpenStax College Physics 2e (2022) บท 14 ความร้อนและการถ่ายเทความร้อน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-introduction-to-heat-and-heat-transfer-methods"
+    },
+    "F16": {
+      "title": "OpenStax College Physics 2e (2022) §16.9 คลื่น",
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves"
+    },
+    "F17": {
+      "title": "OpenStax College Physics 2e (2022) §17.2 อัตราเร็ว ความถี่ และความยาวคลื่นเสียง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+    },
+    "F2": {
+      "title": "OpenStax College Physics 2e (2022) บท 2 การเคลื่อนที่แนวตรง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics"
+    },
+    "F20": {
+      "title": "OpenStax College Physics 2e (2022) §20.2 กฎของโอห์ม",
+      "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits"
+    },
+    "F21": {
+      "title": "OpenStax College Physics 2e (2022) §21.1 ตัวต้านทานอนุกรมและขนาน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel"
+    },
+    "F22": {
+      "title": "OpenStax College Physics 2e (2022) §22.1 แม่เหล็ก และบท 22 สนามแม่เหล็ก",
+      "url": "https://openstax.org/books/college-physics-2e/pages/22-1-magnets"
+    },
+    "F25": {
+      "title": "OpenStax College Physics 2e (2022) บท 25 ทัศนศาสตร์เชิงเรขาคณิต",
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics"
+    },
+    "F4": {
+      "title": "OpenStax College Physics 2e (2022) บท 4 แรงและกฎของนิวตัน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-introduction-to-dynamics-newtons-laws-of-motion"
+    },
+    "F7": {
+      "title": "OpenStax College Physics 2e (2022) บท 7 งาน พลังงาน และกำลัง",
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-introduction-to-work-energy-and-energy-resources"
+    },
+    "F9": {
+      "title": "OpenStax College Physics 2e (2022) §9.2 โมเมนต์และสมดุลการหมุน",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium"
+    },
+    "G1": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 10 เรขาคณิต",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-introduction"
+    },
+    "I1": {
+      "title": "สสวท. Project 14 หนังสือเรียนคณิตศาสตร์ ม.3 เล่ม 2 รายการบทเรียนและสื่อ",
+      "url": "https://proj14.ipst.ac.th/m3/m3-math-book2/"
+    },
+    "K": {
+      "title": "มจพ. วิทยาลัยเทคโนโลยีอุตสาหกรรม ระเบียบการโควตาเรียนดี ปีการศึกษา 2570 หน้า 3–4 หัวข้อ 4, 6, 7",
+      "url": "https://www.admission.kmutnb.ac.th/sites/default/files/2026-08/Quota-Cert2570_0.pdf"
+    },
+    "M1": {
+      "title": "Rutgers University Instruction Manual: 0.1mm Vernier Caliper หลักสเกลหลักและสเกลเวอร์เนียร์",
+      "url": "https://www.des.rutgers.edu/physics/vc/"
+    },
+    "S7": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 7 การนับและความน่าจะเป็น",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-introduction"
+    },
+    "S8": {
+      "title": "OpenStax Contemporary Mathematics (2023) บท 8 สถิติและการแสดงข้อมูล",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-introduction"
+    },
+    "T1": {
+      "title": "OpenStax Algebra and Trigonometry 2e (2021) §7.2 ตรีโกณมิติสามเหลี่ยมมุมฉาก",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-2-right-triangle-trigonometry"
+    }
+  },
+  "schedule": [
+    "20.00–20.35 ทบทวนสูตรคณิตศาสตร์และวิทยาศาสตร์จากความจำ",
+    "20.35–20.45 พัก",
+    "20.45–21.15 อ่านภาษาอังกฤษและตรวจหน่วยของสูตรวิชาชีพ",
+    "21.15–21.45 จัดเอกสารและซ้อมตอบสัมภาษณ์"
+  ],
+  "checklist": [
+    "ตรวจเลขประจำตัวสอบ ห้องสอบและเวลาในระบบรับสมัคร",
+    "จัดบัตรประชาชน หลักฐานสมัคร และสำเนาตามประกาศ",
+    "ตรวจอุปกรณ์ที่สนามสอบอนุญาตและเตรียมเส้นทาง",
+    "ซ้อมแนะนำตัวและยกตัวอย่างผลงานจริง 1 เรื่อง"
+  ],
+  "oralReview": "อธิบายความต่างของกระแสกับแรงดัน ยกตัวอย่างการใช้ sin หรือ cos และลองแนะนำตัวใน 45–60 วินาที"
+}
